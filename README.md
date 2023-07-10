@@ -4,7 +4,7 @@
 
 | 题号    | 题解                                                                                                                      | 标签         | 难度 | 备注        |
 |-------|-------------------------------------------------------------------------------------------------------------------------|------------|----|-----------|
-| 0014  | [最长公共前缀-Longest Common Prefix](/solution/0001-0100/0014.Longest%20Common%20Prefix/README.md)                                                 |  `字典树`,`字符串`  |  简单  |    |
+| 0014  | [最长公共前缀-Longest Common Prefix](/solution/0001-0100/0014.Longest%20Common%20Prefix/README.md)                            |  `字典树`,`字符串`  |  简单  |    |
 | 0035  | [搜索插入位置-Search Insert Position](/solution/0001-0100/0035.Search%20Insert%20Position/README.md)                          | `数组`,`二分查找` | 简单 |  |
 | 0048  | [旋转图像-Rotate Image](/solution/0001-0100/0048.Rotate%20Image/README.md)                                                  | `数组`,`数学`,`矩阵` | 中等 |  |
 | 0056  | [合并区间-Merge Intervals](/solution/0001-0100/0056.Merge%20Intervals/README.md)                                            | `数组`,`排序` | 中等 |  |
