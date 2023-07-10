@@ -1,4 +1,4 @@
-package solution;
+package solution.part19;
 
 /**
  * 1991.Find the Middle Index in Array
