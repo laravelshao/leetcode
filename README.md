@@ -13,6 +13,7 @@
 | 0073  | [矩阵置零-Set Matrix Zeroes](/solution/0000-0100/0073.Set%20Matrix%20Zeroes/README.md)                                                   |  `数组`,`哈希表`,`矩阵`  |  中等  |    |
 | 0167  | [两数之和II输入有序数组-Two Sum II Input Array Is Sorted](/solution/0101-0200/0167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/README.md) |  `数组`,`双指针`,`二分查找`  |  中等  |
 | 0344  | [反转字符串-Reverse String](/solution/0301-0400/0344.Reverse%20String/README.md)                                                          |  `双指针`,`字符串`  |  简单  |    |
+| 0485  | [最大连续 1 的个数-Max Consecutive Ones](/solution/0401-0500/0485.Max%20Consecutive%20Ones/README.md)                                       |  `数组`  |  简单  |    |
 | 0498  | [对角线遍历-Diagonal Traverse](/solution/0401-0500/0498.Diagonal%20Traverse/README.md)                                                    |  `数组`,`矩阵`,`模拟`  |  中等  |    |
 | 0561  | [数组拆分-Array Partition](/solution/0501-0600/0561.Array%20Partition/README.md)                                                         |  `贪心`,`数组`,`计数排序`,`排序`  |  简单  |    |
 | 0724  | [寻找数组的中心下标-Find Pivot Index](/solution/0701-0800/0724.Find%20Pivot%20Index/README.md)                                                | `数组`,`前缀和` | 简单 | 与 #1991 相同 |
