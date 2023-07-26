@@ -1,4 +1,4 @@
-package solution.part07;
+package solution;
 
 /**
  * 724.Find Pivot Index

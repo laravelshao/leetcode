@@ -1,4 +1,4 @@
-package solution.part01;
+package solution;
 
 /**
  * 35.Search Insert Position
