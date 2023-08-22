@@ -16,6 +16,7 @@
 | 0119  | [杨辉三角 II-Pascal's Triangle II](/solution/0101-0200/0119.Pascal%27s%20Triangle%20II/README.md)                                           |  `数组`,`动态规划`  |  简单  |    |
 | 0153  | [寻找旋转排序数组中的最小值-Find Minimum in Rotated Sorted Array](/solution/0101-0200/0153.Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md) |  `数组`,`二分查找`  |  中等  |    |
 | 0167  | [两数之和II输入有序数组-Two Sum II Input Array Is Sorted](/solution/0101-0200/0167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/README.md)    |  `数组`,`双指针`,`二分查找`  |  中等  |
+| 0202  | [快乐数-Happy Number](/solution/0201-0300/0202.Happy%20Number/README.md)                                                                   |  `哈希表`,`数学`,`双指针`  |  简单  |    |
 | 0209  | [长度最小的子数组-Minimum Size Subarray Sum](/solution/0201-0300/0209.Minimum%20Size%20Subarray%20Sum/README.md)                                |  `数组`,`二分查找`,`前缀和`,`滑动窗口`  |  中等  |    |
 | 0283  | [移动零-Move Zeroes](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                     |  `数组`,`双指针`  |  简单  |    |
 | 0344  | [反转字符串-Reverse String](/solution/0301-0400/0344.Reverse%20String/README.md)                                                             |  `双指针`,`字符串`  |  简单  |    |
