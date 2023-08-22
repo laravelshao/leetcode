@@ -20,6 +20,7 @@
 | 0209  | [长度最小的子数组-Minimum Size Subarray Sum](/solution/0201-0300/0209.Minimum%20Size%20Subarray%20Sum/README.md)                                |  `数组`,`二分查找`,`前缀和`,`滑动窗口`  |  中等  |    |
 | 0283  | [移动零-Move Zeroes](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                     |  `数组`,`双指针`  |  简单  |    |
 | 0344  | [反转字符串-Reverse String](/solution/0301-0400/0344.Reverse%20String/README.md)                                                             |  `双指针`,`字符串`  |  简单  |    |
+| 0349  | [两个数组的交集-Intersection of Two Arrays](/solution/0301-0400/0349.Intersection%20of%20Two%20Arrays/README.md)                               |  `数组`,`哈希表`,`双指针`,`二分查找`,`排序`  |  简单  |    |
 | 0485  | [最大连续 1 的个数-Max Consecutive Ones](/solution/0401-0500/0485.Max%20Consecutive%20Ones/README.md)                                          |  `数组`  |  简单  |    |
 | 0498  | [对角线遍历-Diagonal Traverse](/solution/0401-0500/0498.Diagonal%20Traverse/README.md)                                                       |  `数组`,`矩阵`,`模拟`  |  中等  |    |
 | 0561  | [数组拆分-Array Partition](/solution/0501-0600/0561.Array%20Partition/README.md)                                                            |  `贪心`,`数组`,`计数排序`,`排序`  |  简单  |    |
