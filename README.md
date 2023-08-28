@@ -10,6 +10,7 @@
 | 0027  | [移除元素-Remove Element](/solution/0001-0100/0027.Remove%20Element/README.md)                                                              |  `数组`,`双指针`  |  简单  |    |
 | 0035  | [搜索插入位置-Search Insert Position](/solution/0001-0100/0035.Search%20Insert%20Position/README.md)                                          | `数组`,`二分查找` | 简单 |  |
 | 0048  | [旋转图像-Rotate Image](/solution/0001-0100/0048.Rotate%20Image/README.md)                                                                  | `数组`,`数学`,`矩阵` | 中等 |  |
+| 0049  | [字母异位词分组-Group Anagrams](/solution/0001-0100/0049.Group%20Anagrams/README.md)                                                           |  `数组`,`哈希表`,`字符串`,`排序`  |  中等  |    |
 | 0056  | [合并区间-Merge Intervals](/solution/0001-0100/0056.Merge%20Intervals/README.md)                                                            | `数组`,`排序` | 中等 |  |
 | 0073  | [矩阵置零-Set Matrix Zeroes](/solution/0000-0100/0073.Set%20Matrix%20Zeroes/README.md)                                                      |  `数组`,`哈希表`,`矩阵`  |  中等  |    |
 | 0118  | [杨辉三角-Pascal's Triangle](/solution/0101-0200/0118.Pascal%27s%20Triangle/README.md)                                                      |  `数组`,`动态规划`  |  简单  |    |
