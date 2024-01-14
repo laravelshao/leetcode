@@ -4,6 +4,7 @@
 
 | 题号    | 题解                                                                                                                                      | 标签         | 难度 | 备注        |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------|------------|----|-----------|
+| 0001  | [两数之和-Two Sum](/solution/0001-0100/0001.Two%20Sum/README.md)                                                                            |  `数组`,`哈希表`  |  简单  |    |
 | 0005  | [最长回文子串-Longest Palindromic Substring](/solution/0001-0100/0005.Longest%20Palindromic%20Substring/README.md)                            |  `字符串`,`动态规划`  |  中等  |    |
 | 0014  | [最长公共前缀-Longest Common Prefix](/solution/0001-0100/0014.Longest%20Common%20Prefix/README.md)                                            |  `字典树`,`字符串`  |  简单  |    |
 | 0026  | [删除有序数组中的重复项-Remove Duplicates from Sorted Array](/solution/0001-0100/0026.Remove%20Duplicates%20from%20Sorted%20Array/README.md)       |  `数组`,`双指针`  |  简单  |    |
