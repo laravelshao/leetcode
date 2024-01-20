@@ -8,6 +8,7 @@
 | 0002  | [两数相加-Add Two Numbers](/solution/0001-0100/0002.Add%20Two%20Numbers/README.md)                                                                         |  `递归`,`链表`,`数学`  |  中等  |    |
 | 0003  | [无重复字符的最长子串-Longest Substring Without Repeating Characters](/solution/0001-0100/0003.Longest%20Substring%20Without%20Repeating%20Characters/README.md) |  `哈希表`,`字符串`,`滑动窗口`  |  中等  |    |
 | 0005  | [最长回文子串-Longest Palindromic Substring](/solution/0001-0100/0005.Longest%20Palindromic%20Substring/README.md)                                           |  `字符串`,`动态规划`  |  中等  |    |
+| 0007  | [整数反转-Reverse Integer](/solution/0001-0100/0007.Reverse%20Integer/README.md)                                                                           |  `数学`  |  中等  |    |
 | 0014  | [最长公共前缀-Longest Common Prefix](/solution/0001-0100/0014.Longest%20Common%20Prefix/README.md)                                                           |  `字典树`,`字符串`  |  简单  |    |
 | 0026  | [删除有序数组中的重复项-Remove Duplicates from Sorted Array](/solution/0001-0100/0026.Remove%20Duplicates%20from%20Sorted%20Array/README.md)                      |  `数组`,`双指针`  |  简单  |    |
 | 0027  | [移除元素-Remove Element](/solution/0001-0100/0027.Remove%20Element/README.md)                                                                             |  `数组`,`双指针`  |  简单  |    |
