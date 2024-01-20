@@ -33,8 +33,8 @@
 | 0652  | [寻找重复的子树-Find Duplicate Subtrees](/solution/0601-0700/0652.Find%20Duplicate%20Subtrees/README.md)                                       |  `树`,`深度优先搜索`,`哈希表`,`二叉树`  |  中等  |    |
 | 0705  | [设计哈希集合-Design HashSet](/solution/0701-0800/0705.Design%20HashSet/README.md)                                                            |  `设计`,`数组`,`哈希表`,`链表`,`哈希函数`  |  简单  |    |
 | 0706  | [设计哈希映射-Design HashMap](/solution/0701-0800/0706.Design%20HashMap/README.md)                                                            |  `设计`,`数组`,`哈希表`,`链表`,`哈希函数`  |  简单  |    |
+| 0707  | [设计链表-Design Linked List](/solution/0701-0800/0707.Design%20Linked%20List/README.md)                                                    |  `设计`,`链表`  |  中等  |    |
 | 0724  | [寻找数组的中心下标-Find Pivot Index](/solution/0701-0800/0724.Find%20Pivot%20Index/README.md)                                                   | `数组`,`前缀和` | 简单 | 与 #1991 相同 |
 | 1991  | [找到数组的中间位置-Find the Middle Index in Array](/solution/1901-2000/1991.Find%20the%20Middle%20Index%20in%20Array/README.md)                 | `数组`,`前缀和` | 简单 | 与 #724 相同 |
-
 
 
