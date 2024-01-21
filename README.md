@@ -12,6 +12,7 @@
 | 0008  | [字符串转换整数 (atoi)-String to Integer (atoi)](/solution/0001-0100/0008.String%20to%20Integer%20%28atoi%29/README.md)                                       |  `字符串`  |  中等  |    |
 | 0009  | [回文数-Palindrome Number](/solution/0001-0100/0009.Palindrome%20Number/README.md)                                                                        |  `数学`  |  简单  |    |
 | 0011  | [盛最多水的容器-Container With Most Water](/solution/0001-0100/0011.Container%20With%20Most%20Water/README.md)                                                |  `贪心`,`数组`,`双指针`  |  中等  |    |
+| 0012  | [整数转罗马数字-Integer to Roman](/solution/0001-0100/0012.Integer%20to%20Roman/README.md)                                                                    |  `哈希表`,`数学`,`字符串`  |  中等  |    |
 | 0014  | [最长公共前缀-Longest Common Prefix](/solution/0001-0100/0014.Longest%20Common%20Prefix/README.md)                                                           |  `字典树`,`字符串`  |  简单  |    |
 | 0026  | [删除有序数组中的重复项-Remove Duplicates from Sorted Array](/solution/0001-0100/0026.Remove%20Duplicates%20from%20Sorted%20Array/README.md)                      |  `数组`,`双指针`  |  简单  |    |
 | 0027  | [移除元素-Remove Element](/solution/0001-0100/0027.Remove%20Element/README.md)                                                                             |  `数组`,`双指针`  |  简单  |    |
