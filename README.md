@@ -25,6 +25,7 @@
 | 0022 | [括号生成-Generate Parentheses](/solution/0001-0100/0022.Generate%20Parentheses/README.md)                                                                 |  `字符串`,`动态规划`,`回溯`  |  中等  |    |
 | 0023 | [合并 K 个升序链表-Merge k Sorted Lists](/solution/0001-0100/0023.Merge%20k%20Sorted%20Lists/README.md)                                                       |  `链表`,`分治`,`堆（优先队列）`,`归并排序`  |  困难  |    |
 | 0024 | [两两交换链表中的节点-Swap Nodes in Pairs](/solution/0001-0100/0024.Swap%20Nodes%20in%20Pairs/README.md)                                                         |  `递归`,`链表`  |  中等  |    |
+| 0025 | [K 个一组翻转链表-Reverse Nodes in k-Group](/solution/0001-0100/0025.Reverse%20Nodes%20in%20k-Group/README.md)                                                |  `递归`,`链表`  |  困难  |    |
 | 0026 | [删除有序数组中的重复项-Remove Duplicates from Sorted Array](/solution/0001-0100/0026.Remove%20Duplicates%20from%20Sorted%20Array/README.md)                      |  `数组`,`双指针`  |  简单  |    |
 | 0027 | [移除元素-Remove Element](/solution/0001-0100/0027.Remove%20Element/README.md)                                                                             |  `数组`,`双指针`  |  简单  |    |
 | 0035 | [搜索插入位置-Search Insert Position](/solution/0001-0100/0035.Search%20Insert%20Position/README.md)                                                         | `数组`,`二分查找` | 简单 |  |
