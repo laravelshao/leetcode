@@ -29,6 +29,7 @@
 | 0026 | [删除有序数组中的重复项-Remove Duplicates from Sorted Array](/solution/0001-0100/0026.Remove%20Duplicates%20from%20Sorted%20Array/README.md)                                             |  `数组`,`双指针`  |  简单  |    |
 | 0027 | [移除元素-Remove Element](/solution/0001-0100/0027.Remove%20Element/README.md)                                                                                                    |  `数组`,`双指针`  |  简单  |    |
 | 0028 | [找出字符串中第一个匹配项的下标-Find the Index of the First Occurrence in a String](/solution/0001-0100/0028.Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/README.md) |  `双指针`,`字符串`,`字符串匹配`  |  简单  |    |
+| 0029 | [两数相除-Divide Two Integers](/solution/0001-0100/0029.Divide%20Two%20Integers/README.md)                                                                                        |  `位运算`,`数学`  |  中等  |    |
 | 0035 | [搜索插入位置-Search Insert Position](/solution/0001-0100/0035.Search%20Insert%20Position/README.md)                                                                                | `数组`,`二分查找` | 简单 |  |
 | 0036 | [有效的数独-Valid Sudoku](/solution/0001-0100/0036.Valid%20Sudoku/README.md)                                                                                                       |  `数组`,`哈希表`,`矩阵`  |  中等  |    |
 | 0048 | [旋转图像-Rotate Image](/solution/0001-0100/0048.Rotate%20Image/README.md)                                                                                                        | `数组`,`数学`,`矩阵` | 中等 |  |
