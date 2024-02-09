@@ -32,6 +32,7 @@
 | 0029 | [两数相除-Divide Two Integers](/solution/0001-0100/0029.Divide%20Two%20Integers/README.md)                                                                                        |  `位运算`,`数学`  |  中等  |    |
 | 0030 | [串联所有单词的子串-Substring with Concatenation of All Words](/solution/0001-0100/0030.Substring%20with%20Concatenation%20of%20All%20Words/README.md)                                 |  `哈希表`,`字符串`,`滑动窗口`  |  困难  |    |
 | 0031 | [下一个排列-Next Permutation](/solution/0001-0100/0031.Next%20Permutation/README.md)                                                                                               |  `数组`,`双指针`  |  中等  |    |
+| 0033 | [搜索旋转排序数组-Search in Rotated Sorted Array](/solution/0001-0100/0033.Search%20in%20Rotated%20Sorted%20Array/README.md)                                                            |  `数组`,`二分查找`  |  中等  |    |
 | 0035 | [搜索插入位置-Search Insert Position](/solution/0001-0100/0035.Search%20Insert%20Position/README.md)                                                                                | `数组`,`二分查找` | 简单 |  |
 | 0036 | [有效的数独-Valid Sudoku](/solution/0001-0100/0036.Valid%20Sudoku/README.md)                                                                                                       |  `数组`,`哈希表`,`矩阵`  |  中等  |    |
 | 0048 | [旋转图像-Rotate Image](/solution/0001-0100/0048.Rotate%20Image/README.md)                                                                                                        | `数组`,`数学`,`矩阵` | 中等 |  |
