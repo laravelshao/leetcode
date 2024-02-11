@@ -23,6 +23,7 @@ class Solution {
         dfs(candidates, index + 1, target);
         tmpCombine.add(candidates[index]);
         dfs(candidates, index, target - candidates[index]);
+        // 移除最后一个元素
         tmpCombine.remove(tmpCombine.size() - 1);
     }
 }
