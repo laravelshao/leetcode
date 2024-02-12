@@ -74,7 +74,7 @@ dfs(i, target - candidates[i])。
 
 相似题目：
 
-- [40. 组合总和 II]
+- [40. 组合总和 II](/solution/0001-0100/0040.Combination%20Sum%20II/README.md)
 - [77. 组合]
 - [216. 组合总和 III]
 
