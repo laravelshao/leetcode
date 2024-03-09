@@ -54,6 +54,7 @@
 | 0059 | [螺旋矩阵 II](/solution/0001-0100/0059.Spiral%20Matrix%20II/README.md)                                                                    |  `数组`,`矩阵`,`模拟`  |  中等  |    |
 | 0062 | [不同路径](/solution/0001-0100/0062.Unique%20Paths/README.md)                                                                             |  `数学`,`动态规划`,`组合数学`  |  中等  |    |
 | 0064 | [最小路径和](/solution/0001-0100/0064.Minimum%20Path%20Sum/README.md)                                                                      |  `数组`,`动态规划`,`矩阵`  |  中等  |    |
+| 0070 | [爬楼梯](/solution/0001-0100/0070.Climbing%20Stairs/README.md)                                                                           |  `记忆化搜索`,`数学`,`动态规划`  |  简单  |    |
 | 0073 | [矩阵置零](/solution/0000-0100/0073.Set%20Matrix%20Zeroes/README.md)                                                                      |  `数组`,`哈希表`,`矩阵`  |  中等  |    |
 | 0118 | [杨辉三角](/solution/0101-0200/0118.Pascal%27s%20Triangle/README.md)                                                                      |  `数组`,`动态规划`  |  简单  |    |
 | 0119 | [杨辉三角 II](/solution/0101-0200/0119.Pascal%27s%20Triangle%20II/README.md)                                                              |  `数组`,`动态规划`  |  简单  |    |
