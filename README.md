@@ -58,6 +58,7 @@
 | 0073 | [矩阵置零](/solution/0000-0100/0073.Set%20Matrix%20Zeroes/README.md)                                                                      | `数组`,`哈希表`,`矩阵`              |  中等  |    |
 | 0118 | [杨辉三角](/solution/0101-0200/0118.Pascal%27s%20Triangle/README.md)                                                                      | `数组`,`动态规划`                  |  简单  |    |
 | 0119 | [杨辉三角 II](/solution/0101-0200/0119.Pascal%27s%20Triangle%20II/README.md)                                                              | `数组`,`动态规划`                  |  简单  |    |
+| 0121 | [买卖股票的最佳时机](/solution/0101-0200/0121.Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md)                                           |  `数组`,`动态规划`  |  简单  |    |
 | 0153 | [寻找旋转排序数组中的最小值](/solution/0101-0200/0153.Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md)                                    | `数组`,`二分查找`                  |  中等  |    |
 | 0167 | [两数之和II输入有序数组](/solution/0101-0200/0167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/README.md)                                   | `数组`,`双指针`,`二分查找`            |  中等  |
 | 0202 | [快乐数](/solution/0201-0300/0202.Happy%20Number/README.md)                                                                              | `哈希表`,`数学`,`双指针`             |  简单  |    |
