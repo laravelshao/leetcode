@@ -61,6 +61,7 @@
 | 0121 | [买卖股票的最佳时机](/solution/0101-0200/0121.Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md)                                           |  `数组`,`动态规划`  |  简单  |    |
 | 0153 | [寻找旋转排序数组中的最小值](/solution/0101-0200/0153.Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md)                                    | `数组`,`二分查找`                  |  中等  |    |
 | 0167 | [两数之和II输入有序数组](/solution/0101-0200/0167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/README.md)                                   | `数组`,`双指针`,`二分查找`            |  中等  |
+| 0198 | [打家劫舍](/solution/0101-0200/0198.House%20Robber/README.md)                                                                             |  `数组`,`动态规划`  |  中等  |    |
 | 0202 | [快乐数](/solution/0201-0300/0202.Happy%20Number/README.md)                                                                              | `哈希表`,`数学`,`双指针`             |  简单  |    |
 | 0205 | [同构字符串](/solution/0201-0300/0205.Isomorphic%20Strings/README.md)                                                                      | `哈希表`,`字符串`                  |  简单  |    |
 | 0209 | [长度最小的子数组](/solution/0201-0300/0209.Minimum%20Size%20Subarray%20Sum/README.md)                                                        | `数组`,`二分查找`,`前缀和`,`滑动窗口`     |  中等  |    |
