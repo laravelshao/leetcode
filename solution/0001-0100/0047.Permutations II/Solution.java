@@ -3,41 +3,38 @@ class Solution {
     // 结果列表
     private List<List<Integer>> ans = new ArrayList<>();
     // 临时组合
-    private List<Integer> tmpCombine = new ArrayList<>();
+    private List<Integer> group = new ArrayList<>();
 
     public List<List<Integer>> permuteUnique(int[] nums) {
         if (nums.length == 0) {
             return ans;
         }
 
-        Arrays.sort(nums);
-
-        // 定义元素是否使用数组
-        boolean[] used = new boolean[nums.length];
-
-        dfs(nums, 0, used);
-
+        boolean[] selected = new boolean[nums.length];
+        dfs(nums, selected);
         return ans;
     }
 
-    private void dfs(int[] nums, int depth, boolean[] used) {
-        if (depth == nums.length) {
-            // 需要做一次拷贝，不然
-            ans.add(new ArrayList(tmpCombine));
+    private void dfs(int[] nums, boolean[] selected) {
+        // 终止条件：组合元素已达到数组长度
+        if(group.size() == nums.length) {
+            ans.add(new ArrayList<Integer>(group));
             return;
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            // 当前下标元素未使用 或 (下标大于0 且 前后2个数字相同 且 前一个下标位置未使用过)
-            if (used[i] || (i > 0 && nums[i] == nums[i - 1] && !used[i - 1])) {
-                continue;
+        Set<Integer> exist = new HashSet<>();
+        for(int i = 0; i < nums.length; i++) {
+            // 剪枝：元素未选择过 且 不存在相同元素
+            if(!selected[i] && !exist.contains(nums[i])) {
+                selected[i] = true; // 标记已选
+                exist.add(nums[i]);
+                group.add(nums[i]);
+                // 向下一轮选择
+                dfs(nums, selected);
+                // 回退：标记恢复未选择，移除最后一个元素
+                selected[i] = false;
+                group.remove(group.size() - 1);
             }
-
-            used[i] = true;
-            tmpCombine.add(nums[i]);
-            dfs(nums, depth + 1, used);
-            tmpCombine.remove(tmpCombine.size() - 1);
-            used[i] = false;
         }
     }
 }
