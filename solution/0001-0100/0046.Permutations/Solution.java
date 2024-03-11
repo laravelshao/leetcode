@@ -3,36 +3,35 @@ class Solution {
     // 结果列表
     private List<List<Integer>> ans = new ArrayList<>();
     // 临时组合
-    private List<Integer> tmpCombine = new ArrayList<>();
+    private List<Integer> group = new ArrayList<>();
 
     public List<List<Integer>> permute(int[] nums) {
         if (nums.length == 0) {
             return ans;
         }
 
-        // 定义元素是否使用数组
-        boolean[] used = new boolean[nums.length];
-
-        dfs(nums, 0, used);
-
+        boolean[] selected = new boolean[nums.length];
+        dfs(nums, selected);
         return ans;
     }
 
-    private void dfs(int[] nums, int depth, boolean[] used) {
-        if (depth == nums.length) {
-            // 需要做一次拷贝，不能直接添加；不然回溯时会全部清空
-            ans.add(new ArrayList(tmpCombine));
+    private void dfs(int[] nums, boolean[] selected) {
+        // 终止条件：状态条件等于元素个数
+        if(group.size() == nums.length) {
+            ans.add(new ArrayList<>(group));
             return;
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            // 当前元素还未被使用
-            if (!used[i]) {
-                used[i] = true;
-                tmpCombine.add(nums[i]);
-                dfs(nums, depth + 1, used);
-                tmpCombine.remove(tmpCombine.size() - 1);
-                used[i] = false;
+        for(int i = 0; i < nums.length; i++) {
+            // 剪枝：已选择过的
+            if(!selected[i]) {
+                // 未选择过
+                selected[i] = true; // 标记选择过
+                group.add(nums[i]);
+                dfs(nums, selected);
+                // 回退：恢复未选状态，清除最后一个元素
+                selected[i] = false;
+                group.remove(group.size() - 1);
             }
         }
     }
