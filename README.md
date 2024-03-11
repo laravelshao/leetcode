@@ -67,6 +67,7 @@
 | 0209 | [长度最小的子数组](/solution/0201-0300/0209.Minimum%20Size%20Subarray%20Sum/README.md)                                                        | `数组`,`二分查找`,`前缀和`,`滑动窗口`     |  中等  |    |
 | 0213 | [打家劫舍 II](/solution/0201-0300/0213.House%20Robber%20II/README.md)                                                                     |  `数组`,`动态规划`  |  中等  |    |
 | 0283 | [移动零](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                               | `数组`,`双指针`                   |  简单  |    |
+| 0300 | [最长递增子序列](/solution/0201-0300/0300.Longest%20Increasing%20Subsequence/README.md)                                                      |  `数组`,`二分查找`,`动态规划`  |  中等  |    |
 | 0344 | [反转字符串](/solution/0301-0400/0344.Reverse%20String/README.md)                                                                          | `双指针`,`字符串`                  |  简单  |    |
 | 0349 | [两个数组的交集](/solution/0301-0400/0349.Intersection%20of%20Two%20Arrays/README.md)                                                        | `数组`,`哈希表`,`双指针`,`二分查找`,`排序` |  简单  |    |
 | 0387 | [字符串中的第一个唯一字符](/solution/0301-0400/0387.First%20Unique%20Character%20in%20a%20String/README.md)                                       | `队列`,`哈希表`,`字符串`,`计数`        |  简单  |    |
