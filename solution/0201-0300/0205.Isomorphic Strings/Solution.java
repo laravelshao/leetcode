@@ -1,19 +1,17 @@
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        Map<Character, Character> map = new HashMap<>();
-        Set<Character> visitedSet = new HashSet<>();
+        Map<Character, Character> s2t = new HashMap<>(), t2s = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
-            Character sc = s.charAt(i);
-            Character tc = t.charAt(i);
-            if (map.containsKey(sc) && map.get(sc) != tc) {
+            char sc = s.charAt(i);
+            char tc = t.charAt(i);
+            if ((s2t.containsKey(sc) && s2t.get(sc) != tc)
+                    || (t2s.containsKey(tc) && t2s.get(tc) != sc)) {
                 return false;
             }
-            if (!map.containsKey(sc) && visitedSet.contains(tc)) {
-                return false;
-            }
-            map.put(sc, tc);
-            visitedSet.add(tc);
+            s2t.put(sc, tc);
+            t2s.put(tc, sc);
         }
+
         return true;
     }
 }
