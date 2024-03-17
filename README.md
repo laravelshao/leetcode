@@ -71,6 +71,7 @@
 | 0206 | [反转链表](/solution/0201-0300/0206.Reverse%20Linked%20List/README.md)                                                                    |  `递归`,`链表`  |  简单  |    |
 | 0209 | [长度最小的子数组](/solution/0201-0300/0209.Minimum%20Size%20Subarray%20Sum/README.md)                                                        | `数组`,`二分查找`,`前缀和`,`滑动窗口`     |  中等  |    |
 | 0213 | [打家劫舍 II](/solution/0201-0300/0213.House%20Robber%20II/README.md)                                                                     |  `数组`,`动态规划`  |  中等  |    |
+| 0232 | [用栈实现队列](/solution/0201-0300/0232.Implement%20Queue%20using%20Stacks/README.md)                                                       |  `栈`,`设计`,`队列`  |  简单  |    |
 | 0237 | [删除链表中的节点](/solution/0201-0300/0237.Delete%20Node%20in%20a%20Linked%20List/README.md)                                                 |  `链表`  |  中等  |    |
 | 0283 | [移动零](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                               | `数组`,`双指针`                   |  简单  |    |
 | 0300 | [最长递增子序列](/solution/0201-0300/0300.Longest%20Increasing%20Subsequence/README.md)                                                      |  `数组`,`二分查找`,`动态规划`  |  中等  |    |
