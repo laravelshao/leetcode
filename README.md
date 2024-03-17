@@ -62,6 +62,7 @@
 | 0118 | [杨辉三角](/solution/0101-0200/0118.Pascal%27s%20Triangle/README.md)                                                                      | `数组`,`动态规划`                  |  简单  |    |
 | 0119 | [杨辉三角 II](/solution/0101-0200/0119.Pascal%27s%20Triangle%20II/README.md)                                                              | `数组`,`动态规划`                  |  简单  |    |
 | 0121 | [买卖股票的最佳时机](/solution/0101-0200/0121.Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md)                                           |  `数组`,`动态规划`  |  简单  |    |
+| 0142 | [环形链表 II](/solution/0101-0200/0142.Linked%20List%20Cycle%20II/README.md)                                                              |  `哈希表`,`链表`,`双指针`  |  中等  |    |
 | 0153 | [寻找旋转排序数组中的最小值](/solution/0101-0200/0153.Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md)                                    | `数组`,`二分查找`                  |  中等  |    |
 | 0155 | [最小栈](/solution/0101-0200/0155.Min%20Stack/README.md)                                                                                 |  `栈`,`设计`  |  中等  |    |
 | 0160 | [相交链表](/solution/0101-0200/0160.Intersection%20of%20Two%20Linked%20Lists/README.md)                                                   |  `哈希表`,`链表`,`双指针`  |  简单  |    |
