@@ -93,6 +93,7 @@
 | 0706 | [设计哈希映射](/solution/0701-0800/0706.Design%20HashMap/README.md)                                                                         | `设计`,`数组`,`哈希表`,`链表`,`哈希函数`  |  简单  |    |
 | 0707 | [设计链表](/solution/0701-0800/0707.Design%20Linked%20List/README.md)                                                                     | `设计`,`链表`                    |  中等  |    |
 | 0724 | [寻找数组的中心下标](/solution/0701-0800/0724.Find%20Pivot%20Index/README.md)                                                                  | `数组`,`前缀和`                   | 简单 | 与 #1991 相同 |
+| 0876 | [链表的中间结点](/solution/0801-0900/0876.Middle%20of%20the%20Linked%20List/README.md)                                                       |  `链表`,`双指针`  |  简单  |  第 95 场周赛  |
 | 1480 | [一维数组的动态和](/solution/1401-1500/1480.Running%20Sum%20of%201d%20Array/README.md)                                                        | `数组`,`前缀和`,`动态规划`            |  简单  |    |
 | 1991 | [找到数组的中间位置](/solution/1901-2000/1991.Find%20the%20Middle%20Index%20in%20Array/README.md)                                              | `数组`,`前缀和`                   | 简单 | 与 #724 相同 |
 
