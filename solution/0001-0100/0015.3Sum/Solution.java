@@ -2,37 +2,42 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         // 升序排列
         Arrays.sort(nums);
-        int n = nums.length;
-        List<List<Integer>> ans = new ArrayList<>();
-        // 遍历第一个数字，因为已经排序，总和等于0，第一个数字肯定小于等于0，且只能遍历到小于n-2，后面需要保留2个数字
-        for (int first = 0; first < n - 2 && nums[first] <= 0; first++) {
-            // 需要和上一次枚举的数不相同
-            if (first > 0 && nums[first] == nums[first - 1]) {
+
+        List<List<Integer>> res = new ArrayList<>();
+        // 思路先固定三数最小值 nums[k]，然后双指针在剩余区间两端
+        for (int k = 0; k < nums.length - 2; k++) {
+            // 如果最小数都大于0，三数之和肯定大于0不符合条件
+            if (nums[k] > 0) {
+                break;
+            }
+            // 和上一次固定的最小值相同，直接跳过
+            if (k > 0 && nums[k] == nums[k - 1]) {
                 continue;
             }
 
-            int second = first + 1, third = n - 1;
-            while (second < third) {
-                int sum = nums[first] + nums[second] + nums[third];
-                if (sum < 0) {
-                    second++;
-                } else if (sum > 0) {
-                    third--;
+            // 初始化双指针指向剩余两端
+            int i = k + 1, j = nums.length - 1;
+            while (i < j) {
+                int sum = nums[k] + nums[i] + nums[j];
+                if (sum > 0) {
+                    j--;
+                } else if (sum < 0) {
+                    i++;
                 } else {
-                    // 第二个索引需要自增，第三个索引需要自减
-                    ans.add(Arrays.asList(nums[first], nums[second++], nums[third--]));
-                    // 如果第二个索引位置数字等于自增前索引位置数字，则再自增
-                    while (second < third && nums[second] == nums[second - 1]) {
-                        second++;
+                    // 注意后自增
+                    res.add(Arrays.asList(nums[k], nums[i++], nums[j--]));
+                    // 如果第二个索引自增后位置与前一位置数字相同，则再自增
+                    while (i < j && nums[i] == nums[i - 1]) {
+                        i++;
                     }
-                    // 如果第三个索引位置数字等于自减前索引位置数字，则再自减；不需要担心超过索引范围，上面已经自减过一次
-                    while (second < third && nums[third] == nums[third + 1]) {
-                        third--;
+                    // 如果第三个索引自减后位置与后一位置数字相同，则再自减
+                    while (i < j && nums[j] == nums[j + 1]) {
+                        j--;
                     }
                 }
             }
         }
 
-        return ans;
+        return res;
     }
 }
