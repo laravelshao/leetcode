@@ -7,7 +7,7 @@ package solution;
  * @date 2023/6/26
  * @since 1.0.0
  */
-public class P0724FindPivotIndex {
+public class LC0724FindPivotIndex {
 
     public static int pivotIndex(int[] nums) {
 

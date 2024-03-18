@@ -10,7 +10,7 @@ import java.util.Map;
  * @date 2024/1/21
  * @since 1.0.0
  */
-public class P0017LetterCombinationsofaPhoneNumber {
+public class LC0017LetterCombinationsofaPhoneNumber {
 
     // 数字字母映射Map
     private static Map<Character, String> numLetterMap = new HashMap<Character, String>() {

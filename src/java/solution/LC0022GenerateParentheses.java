@@ -11,7 +11,7 @@ import java.util.List;
  * @date 2024/1/27
  * @since 1.0.0
  */
-public class P0022GenerateParentheses {
+public class LC0022GenerateParentheses {
 
     private static List<String> ans = new ArrayList<>();
 

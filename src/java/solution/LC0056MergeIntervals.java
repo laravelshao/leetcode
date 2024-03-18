@@ -12,7 +12,7 @@ import java.util.List;
  * @date 2023/6/27
  * @since 1.0.0
  */
-public class P0056MergeIntervals {
+public class LC0056MergeIntervals {
 
     public static int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));

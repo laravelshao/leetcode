@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @date 2023/7/1
  * @since 1.0.0
  */
-public class P0498DiagonalTraverse {
+public class LC0498DiagonalTraverse {
 
     public static int[] findDiagonalOrder(int[][] mat) {
         int n = mat.length;

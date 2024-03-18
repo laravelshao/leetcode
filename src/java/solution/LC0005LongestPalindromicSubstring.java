@@ -7,7 +7,7 @@ package solution;
  * @date 2023/7/12
  * @since 1.0.0
  */
-public class P0005LongestPalindromicSubstring {
+public class LC0005LongestPalindromicSubstring {
 
     public static String longestPalindrome(String s) {
 

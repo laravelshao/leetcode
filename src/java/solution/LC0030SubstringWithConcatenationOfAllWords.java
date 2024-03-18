@@ -13,7 +13,7 @@ import java.util.Map;
  * @date 2024/2/6
  * @since 1.0.0
  */
-public class P0030SubstringWithConcatenationOfAllWords {
+public class LC0030SubstringWithConcatenationOfAllWords {
 
     public static List<Integer> findSubstring(String s, String[] words) {
         List<Integer> ans = new ArrayList<>();

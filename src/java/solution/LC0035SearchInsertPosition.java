@@ -7,7 +7,7 @@ package solution;
  * @date 2023/6/26
  * @since 1.0.0
  */
-public class P0035SearchInsertPosition {
+public class LC0035SearchInsertPosition {
 
     public static int searchInsert(int[] nums, int target) {
 

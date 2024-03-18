@@ -12,7 +12,7 @@ import java.util.List;
  * @date 2023/6/29
  * @since 1.0.0
  */
-class P0073SetMatrixZeroes {
+class LC0073SetMatrixZeroes {
 
     /**
      * 数组标记法

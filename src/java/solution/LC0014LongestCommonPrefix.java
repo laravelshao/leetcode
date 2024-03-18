@@ -5,7 +5,7 @@ package solution;
  * @date 2023/7/10
  * @since 1.0.0
  */
-public class P0014LongestCommonPrefix {
+public class LC0014LongestCommonPrefix {
 
 
     public static String longestCommonPrefix(String[] strs) {

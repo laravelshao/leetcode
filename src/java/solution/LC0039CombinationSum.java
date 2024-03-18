@@ -11,7 +11,7 @@ import java.util.List;
  * @date 2024/2/9
  * @since 1.0.0
  */
-public class P0039CombinationSum {
+public class LC0039CombinationSum {
 
     // 结果
     private static List<List<Integer>> ans = new ArrayList<>();

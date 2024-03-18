@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @date 2024/3/11
  * @since 1.0.0
  */
-public class P0300LongestIncreasingSubsequence {
+public class LC0300LongestIncreasingSubsequence {
 
     public static int lengthOfLIS(int[] nums) {
         // 状态定义：dp[i] 代表前 i 个元素的最长递增子序列长度

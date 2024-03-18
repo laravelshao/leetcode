@@ -9,7 +9,7 @@ import java.util.List;
  * @date 2024/1/21
  * @since 1.0.0
  */
-public class P0015ThreeSum {
+public class LC0015ThreeSum {
 
     public static List<List<Integer>> threeSum(int[] nums) {
         // 升序排列

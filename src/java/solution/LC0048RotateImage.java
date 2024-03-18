@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @date 2023/6/28
  * @since 1.0.0
  */
-public class P0048RotateImage {
+public class LC0048RotateImage {
 
     public static void rotate(int[][] matrix) {
         int length = matrix.length;

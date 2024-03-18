@@ -8,7 +8,7 @@ import java.util.List;
  * @date 2024/1/28
  * @since 1.0.0
  */
-public class P0029DivideTwoIntegers {
+public class LC0029DivideTwoIntegers {
 
     public static int divide(int dividend, int divisor) {
         if (divisor == 1) {

@@ -7,7 +7,7 @@ package solution;
  * @date 2023/6/25
  * @since 1.0.0
  */
-public class P1991FindTheMiddleIndexInArray {
+public class LC1991FindTheMiddleIndexInArray {
 
     public static int findMiddleIndex(int[] nums) {
 
