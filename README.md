@@ -86,6 +86,7 @@
 | 0392 | [判断子序列](/solution/0301-0400/0392.Is%20Subsequence/README.md)                                                                          |  `双指针`,`字符串`,`动态规划`  |  简单  |    |
 | 0394 | [字符串解码](/solution/0301-0400/0394.Decode%20String/README.md)                                                                           |  `栈`,`递归`,`字符串`  |  中等  |    |
 | 0409 | [最长回文串](/solution/0401-0500/0409.Longest%20Palindrome/README.md)                                                                      |  `贪心`,`哈希表`,`字符串`  |  简单  |    |
+| 0415 | [字符串相加](/solution/0401-0500/0415.Add%20Strings/README.md)                                                                             |  `数学`,`字符串`,`模拟`  |  简单  |    |
 | 0485 | [最大连续 1 的个数](/solution/0401-0500/0485.Max%20Consecutive%20Ones/README.md)                                                             | `数组`                         |  简单  |    |
 | 0498 | [对角线遍历](/solution/0401-0500/0498.Diagonal%20Traverse/README.md)                                                                       | `数组`,`矩阵`,`模拟`               |  中等  |    |
 | 0509 | [斐波那契数](/solution/0501-0600/0509.Fibonacci%20Number/README.md)                                                                        | `递归`,`记忆化搜索`,`数学`,`动态规划`     |  简单  |    |
