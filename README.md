@@ -99,6 +99,7 @@
 | 0724 | [寻找数组的中心下标](/solution/0701-0800/0724.Find%20Pivot%20Index/README.md)                                                                  | `数组`,`前缀和`                   | 简单 | 与 #1991 相同 |
 | 0796 | [旋转字符串](/solution/0701-0800/0796.Rotate%20String/README.md)                                                                           |  `字符串`,`字符串匹配`  |  简单  |    |
 | 0876 | [链表的中间结点](/solution/0801-0900/0876.Middle%20of%20the%20Linked%20List/README.md)                                                       |  `链表`,`双指针`  |  简单  |    |
+| 0946 | [验证栈序列](/solution/0901-1000/0946.Validate%20Stack%20Sequences/README.md)                                                              |  `栈`,`数组`,`模拟`  |  中等  |    |
 | 1480 | [一维数组的动态和](/solution/1401-1500/1480.Running%20Sum%20of%201d%20Array/README.md)                                                        | `数组`,`前缀和`,`动态规划`            |  简单  |    |
 | 1991 | [找到数组的中间位置](/solution/1901-2000/1991.Find%20the%20Middle%20Index%20in%20Array/README.md)                                              | `数组`,`前缀和`                   | 简单 | 与 #724 相同 |
 
