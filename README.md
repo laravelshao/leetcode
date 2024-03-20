@@ -94,6 +94,7 @@
 | 0561 | [数组拆分](/solution/0501-0600/0561.Array%20Partition/README.md)                                                                          | `贪心`,`数组`,`计数排序`,`排序`        |  简单  |    |
 | 0557 | [反转字符串中的单词 III](/solution/0501-0600/0557.Reverse%20Words%20in%20a%20String%20III/README.md)                                           | `双指针`,`字符串`                  |  简单  |    |
 | 0652 | [寻找重复的子树](/solution/0601-0700/0652.Find%20Duplicate%20Subtrees/README.md)                                                             | `树`,`深度优先搜索`,`哈希表`,`二叉树`     |  中等  |    |
+| 0704 | [二分查找](/solution/0701-0800/0704.Binary%20Search/README.md)                                                                            |  `数组`,`二分查找`  |  简单  |    |
 | 0705 | [设计哈希集合](/solution/0701-0800/0705.Design%20HashSet/README.md)                                                                         | `设计`,`数组`,`哈希表`,`链表`,`哈希函数`  |  简单  |    |
 | 0706 | [设计哈希映射](/solution/0701-0800/0706.Design%20HashMap/README.md)                                                                         | `设计`,`数组`,`哈希表`,`链表`,`哈希函数`  |  简单  |    |
 | 0707 | [设计链表](/solution/0701-0800/0707.Design%20Linked%20List/README.md)                                                                     | `设计`,`链表`                    |  中等  |    |
