@@ -81,6 +81,7 @@
 | 0266 | [回文排列](/solution/0201-0300/0266.Palindrome%20Permutation/README.md)                                                                   |  `位运算`,`哈希表`,`字符串`  |  简单  |    |
 | 0278 | [第一个错误的版本](/solution/0201-0300/0278.First%20Bad%20Version/README.md)                                                                  |  `二分查找`,`交互`  |  简单  |    |
 | 0283 | [移动零](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                               | `数组`,`双指针`                   |  简单  |    |
+| 0287 | [寻找重复数](/solution/0201-0300/0287.Find%20the%20Duplicate%20Number/README.md)                                                           |  `位运算`,`数组`,`双指针`,`二分查找`  |  中等  |    |
 | 0300 | [最长递增子序列](/solution/0201-0300/0300.Longest%20Increasing%20Subsequence/README.md)                                                      |  `数组`,`二分查找`,`动态规划`  |  中等  |    |
 | 0344 | [反转字符串](/solution/0301-0400/0344.Reverse%20String/README.md)                                                                          | `双指针`,`字符串`                  |  简单  |    |
 | 0349 | [两个数组的交集](/solution/0301-0400/0349.Intersection%20of%20Two%20Arrays/README.md)                                                        | `数组`,`哈希表`,`双指针`,`二分查找`,`排序` |  简单  |    |
