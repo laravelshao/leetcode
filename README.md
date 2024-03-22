@@ -77,6 +77,7 @@
 | 0206 | [反转链表](/solution/0201-0300/0206.Reverse%20Linked%20List/README.md)                                                                    |  `递归`,`链表`  |  简单  |    |
 | 0209 | [长度最小的子数组](/solution/0201-0300/0209.Minimum%20Size%20Subarray%20Sum/README.md)                                                        | `数组`,`二分查找`,`前缀和`,`滑动窗口`     |  中等  |    |
 | 0213 | [打家劫舍 II](/solution/0201-0300/0213.House%20Robber%20II/README.md)                                                                     |  `数组`,`动态规划`  |  中等  |    |
+| 0230 | [二叉搜索树中第K小的元素](/solution/0201-0300/0230.Kth%20Smallest%20Element%20in%20a%20BST/README.md)                                            |  `树`,`深度优先搜索`,`二叉搜索树`,`二叉树`  |  中等  |    |
 | 0232 | [用栈实现队列](/solution/0201-0300/0232.Implement%20Queue%20using%20Stacks/README.md)                                                       |  `栈`,`设计`,`队列`  |  简单  |    |
 | 0236 | [二叉树的最近公共祖先](/solution/0201-0300/0236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/README.md)                                  |  `树`,`深度优先搜索`,`二叉树`  |  中等  |    |
 | 0237 | [删除链表中的节点](/solution/0201-0300/0237.Delete%20Node%20in%20a%20Linked%20List/README.md)                                                 |  `链表`  |  中等  |    |
