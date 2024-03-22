@@ -79,6 +79,7 @@
 | 0213 | [打家劫舍 II](/solution/0201-0300/0213.House%20Robber%20II/README.md)                                                                     |  `数组`,`动态规划`  |  中等  |    |
 | 0230 | [二叉搜索树中第K小的元素](/solution/0201-0300/0230.Kth%20Smallest%20Element%20in%20a%20BST/README.md)                                            |  `树`,`深度优先搜索`,`二叉搜索树`,`二叉树`  |  中等  |    |
 | 0232 | [用栈实现队列](/solution/0201-0300/0232.Implement%20Queue%20using%20Stacks/README.md)                                                       |  `栈`,`设计`,`队列`  |  简单  |    |
+| 0235 | [二叉搜索树的最近公共祖先](/solution/0201-0300/0235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/README.md)                       |  `树`,`深度优先搜索`,`二叉搜索树`,`二叉树`  |  中等  |    |
 | 0236 | [二叉树的最近公共祖先](/solution/0201-0300/0236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/README.md)                                  |  `树`,`深度优先搜索`,`二叉树`  |  中等  |    |
 | 0237 | [删除链表中的节点](/solution/0201-0300/0237.Delete%20Node%20in%20a%20Linked%20List/README.md)                                                 |  `链表`  |  中等  |    |
 | 0242 | [有效的字母异位词](/solution/0201-0300/0242.Valid%20Anagram/README.md)                                                                        |  `哈希表`,`字符串`,`排序`  |  简单  |    |
