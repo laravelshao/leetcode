@@ -88,6 +88,7 @@
 | 0236 | [二叉树的最近公共祖先](/solution/0201-0300/0236.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/README.md)                                  |  `树`,`深度优先搜索`,`二叉树`  |  中等  |    |
 | 0237 | [删除链表中的节点](/solution/0201-0300/0237.Delete%20Node%20in%20a%20Linked%20List/README.md)                                                 |  `链表`  |  中等  |    |
 | 0242 | [有效的字母异位词](/solution/0201-0300/0242.Valid%20Anagram/README.md)                                                                        |  `哈希表`,`字符串`,`排序`  |  简单  |    |
+| 0264 | [丑数 II](/solution/0201-0300/0264.Ugly%20Number%20II/README.md)                                                                        |  `哈希表`,`数学`,`动态规划`,`堆（优先队列）`  |  中等  |    |
 | 0266 | [回文排列](/solution/0201-0300/0266.Palindrome%20Permutation/README.md)                                                                   |  `位运算`,`哈希表`,`字符串`  |  简单  |    |
 | 0278 | [第一个错误的版本](/solution/0201-0300/0278.First%20Bad%20Version/README.md)                                                                  |  `二分查找`,`交互`  |  简单  |    |
 | 0283 | [移动零](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                               | `数组`,`双指针`                   |  简单  |    |
