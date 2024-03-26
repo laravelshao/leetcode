@@ -69,6 +69,7 @@
 | 0119 | [杨辉三角 II](/solution/0101-0200/0119.Pascal%27s%20Triangle%20II/README.md)                                                              | `数组`,`动态规划`                  |  简单  |    |
 | 0121 | [买卖股票的最佳时机](/solution/0101-0200/0121.Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md)                                           |  `数组`,`动态规划`  |  简单  |    |
 | 0122 | [买卖股票的最佳时机 II](/solution/0101-0200/0122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md)                                   |  `贪心`,`数组`,`动态规划`  |  中等  |    |
+| 0136 | [只出现一次的数字](/solution/0101-0200/0136.Single%20Number/README.md)                                                                        |  `位运算`,`数组`  |  简单  |    |
 | 0142 | [环形链表 II](/solution/0101-0200/0142.Linked%20List%20Cycle%20II/README.md)                                                              |  `哈希表`,`链表`,`双指针`  |  中等  |    |
 | 0151 | [反转字符串中的单词](/solution/0101-0200/0151.Reverse%20Words%20in%20a%20String/README.md)                                                     |  `双指针`,`字符串`  |  中等  |    |
 | 0153 | [寻找旋转排序数组中的最小值](/solution/0101-0200/0153.Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md)                                    | `数组`,`二分查找`                  |  中等  |    |
