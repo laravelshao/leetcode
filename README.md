@@ -75,6 +75,7 @@
 | 0155 | [最小栈](/solution/0101-0200/0155.Min%20Stack/README.md)                                                                                 |  `栈`,`设计`  |  中等  |    |
 | 0160 | [相交链表](/solution/0101-0200/0160.Intersection%20of%20Two%20Linked%20Lists/README.md)                                                   |  `哈希表`,`链表`,`双指针`  |  简单  |    |
 | 0167 | [两数之和II输入有序数组](/solution/0101-0200/0167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/README.md)                                   | `数组`,`双指针`,`二分查找`            |  中等  |
+| 0179 | [最大数](/solution/0101-0200/0179.Largest%20Number/README.md)                                                                            |  `贪心`,`数组`,`字符串`,`排序`  |  中等  |    |
 | 0198 | [打家劫舍](/solution/0101-0200/0198.House%20Robber/README.md)                                                                             |  `数组`,`动态规划`  |  中等  |    |
 | 0202 | [快乐数](/solution/0201-0300/0202.Happy%20Number/README.md)                                                                              | `哈希表`,`数学`,`双指针`             |  简单  |    |
 | 0205 | [同构字符串](/solution/0201-0300/0205.Isomorphic%20Strings/README.md)                                                                      | `哈希表`,`字符串`                  |  简单  |    |
