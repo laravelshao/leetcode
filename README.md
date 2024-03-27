@@ -109,6 +109,7 @@
 | 0387 | [字符串中的第一个唯一字符](/solution/0301-0400/0387.First%20Unique%20Character%20in%20a%20String/README.md)                                       | `队列`,`哈希表`,`字符串`,`计数`        |  简单  |    |
 | 0392 | [判断子序列](/solution/0301-0400/0392.Is%20Subsequence/README.md)                                                                          |  `双指针`,`字符串`,`动态规划`  |  简单  |    |
 | 0394 | [字符串解码](/solution/0301-0400/0394.Decode%20String/README.md)                                                                           |  `栈`,`递归`,`字符串`  |  中等  |    |
+| 0400 | [第 N 位数字](/solution/0301-0400/0400.Nth%20Digit/README.md)                                                                             |  `数学`,`二分查找`  |  中等  |    |
 | 0409 | [最长回文串](/solution/0401-0500/0409.Longest%20Palindrome/README.md)                                                                      |  `贪心`,`哈希表`,`字符串`  |  简单  |    |
 | 0415 | [字符串相加](/solution/0401-0500/0415.Add%20Strings/README.md)                                                                             |  `数学`,`字符串`,`模拟`  |  简单  |    |
 | 0426 | [将二叉搜索树转化为排序的双向链表](/solution/0401-0500/0426.Convert%20Binary%20Search%20Tree%20to%20Sorted%20Doubly%20Linked%20List/README.md)        |  `栈`,`树`,`深度优先搜索`,`二叉搜索树`,`链表`,`二叉树`,`双向链表`  |  中等  |  🔒  |
