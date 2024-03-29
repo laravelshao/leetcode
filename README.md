@@ -57,6 +57,7 @@
 | 0064 | [最小路径和](/solution/0001-0100/0064.Minimum%20Path%20Sum/README.md)                                                                      | `数组`,`动态规划`,`矩阵`             |  中等  |    |
 | 0070 | [爬楼梯](/solution/0001-0100/0070.Climbing%20Stairs/README.md)                                                                           | `记忆化搜索`,`数学`,`动态规划`          |  简单  |    |
 | 0073 | [矩阵置零](/solution/0000-0100/0073.Set%20Matrix%20Zeroes/README.md)                                                                      | `数组`,`哈希表`,`矩阵`              |  中等  |    |
+| 0080 | [删除有序数组中的重复项 II](/solution/0001-0100/0080.Remove%20Duplicates%20from%20Sorted%20Array%20II/README.md)                                 |  `数组`,`双指针`  |  中等  |    |
 | 0086 | [分隔链表](/solution/0001-0100/0086.Partition%20List/README.md)                                                                           |  `链表`,`双指针`  |  中等  |    |
 | 0088 | [合并两个有序数组](/solution/0001-0100/0088.Merge%20Sorted%20Array/README.md)                                                                 |  `数组`,`双指针`,`排序`  |  简单  |    |
 | 0089 | [格雷编码](/solution/0001-0100/0089.Gray%20Code/README.md)                                                                                |  `位运算`,`数学`,`回溯`  |  中等  |    |
