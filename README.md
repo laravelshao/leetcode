@@ -93,6 +93,7 @@
 | 0209 | [长度最小的子数组](/solution/0201-0300/0209.Minimum%20Size%20Subarray%20Sum/README.md)                                                        | `数组`,`二分查找`,`前缀和`,`滑动窗口`     |  中等  |    |
 | 0213 | [打家劫舍 II](/solution/0201-0300/0213.House%20Robber%20II/README.md)                                                                     |  `数组`,`动态规划`  |  中等  |    |
 | 0215 | [数组中的第K个最大元素](/solution/0201-0300/0215.Kth%20Largest%20Element%20in%20an%20Array/README.md)                                           |  `数组`,`分治`,`快速选择`,`排序`,`堆（优先队列）`  |  中等  |    |
+| 0221 | [最大正方形](/solution/0201-0300/0221.Maximal%20Square/README.md)                                                                          |  `数组`,`动态规划`,`矩阵`  |  中等  |    |
 | 0226 | [翻转二叉树](/solution/0201-0300/0226.Invert%20Binary%20Tree/README.md)                                                                    |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
 | 0230 | [二叉搜索树中第K小的元素](/solution/0201-0300/0230.Kth%20Smallest%20Element%20in%20a%20BST/README.md)                                            |  `树`,`深度优先搜索`,`二叉搜索树`,`二叉树`  |  中等  |    |
 | 0231 | [2 的幂](/solution/0201-0300/0231.Power%20of%20Two/README.md)                                                                           |  `位运算`,`递归`,`数学`  |  简单  |    |
