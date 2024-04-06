@@ -60,6 +60,7 @@
 | 0072 | [编辑距离](/solution/0001-0100/0072.Edit%20Distance/README.md)                                                                            |  `字符串`,`动态规划`  |  中等  |    |
 | 0073 | [矩阵置零](/solution/0000-0100/0073.Set%20Matrix%20Zeroes/README.md)                                                                      | `数组`,`哈希表`,`矩阵`              |  中等  |    |
 | 0077 | [组合](/solution/0001-0100/0077.Combinations/README.md)                                                                                 |  `回溯`  |  中等  |    |
+| 0079 | [单词搜索](/solution/0001-0100/0079.Word%20Search/README.md)                                                                              |  `数组`,`回溯`,`矩阵`  |  中等  |    |
 | 0080 | [删除有序数组中的重复项 II](/solution/0001-0100/0080.Remove%20Duplicates%20from%20Sorted%20Array%20II/README.md)                                 |  `数组`,`双指针`  |  中等  |    |
 | 0086 | [分隔链表](/solution/0001-0100/0086.Partition%20List/README.md)                                                                           |  `链表`,`双指针`  |  中等  |    |
 | 0088 | [合并两个有序数组](/solution/0001-0100/0088.Merge%20Sorted%20Array/README.md)                                                                 |  `数组`,`双指针`,`排序`  |  简单  |    |
