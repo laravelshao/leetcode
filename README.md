@@ -73,6 +73,7 @@
 | 0105 | [从前序与中序遍历序列构造二叉树](/solution/0101-0200/0105.Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/README.md)         |  `树`,`数组`,`哈希表`,`分治`,`二叉树`  |  中等  |    |
 | 0106 | [从中序与后序遍历序列构造二叉树](/solution/0101-0200/0106.Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal/README.md)        |  `树`,`数组`,`哈希表`,`分治`,`二叉树`  |  中等  |    |
 | 0110 | [平衡二叉树](/solution/0101-0200/0110.Balanced%20Binary%20Tree/README.md)                                                                  |  `树`,`深度优先搜索`,`二叉树`  |  简单  |    |
+| 0112 | [路径总和](/solution/0101-0200/0112.Path%20Sum/README.md)                                                                                 |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
 | 0113 | [路径总和 II](/solution/0101-0200/0113.Path%20Sum%20II/README.md)                                                                         |  `树`,`深度优先搜索`,`回溯`,`二叉树`  |  中等  |    |
 | 0118 | [杨辉三角](/solution/0101-0200/0118.Pascal%27s%20Triangle/README.md)                                                                      | `数组`,`动态规划`                  |  简单  |    |
 | 0119 | [杨辉三角 II](/solution/0101-0200/0119.Pascal%27s%20Triangle%20II/README.md)                                                              | `数组`,`动态规划`                  |  简单  |    |
