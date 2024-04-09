@@ -84,6 +84,7 @@
 | 0129 | [求根节点到叶节点数字之和](/solution/0101-0200/0129.Sum%20Root%20to%20Leaf%20Numbers/README.md)                                                   |  `树`,`深度优先搜索`,`二叉树`  |  中等  |    |
 | 0136 | [只出现一次的数字](/solution/0101-0200/0136.Single%20Number/README.md)                                                                        |  `位运算`,`数组`  |  简单  |    |
 | 0139 | [单词拆分](/solution/0101-0200/0139.Word%20Break/README.md)                                                                               |  `字典树`,`记忆化搜索`,`数组`,`哈希表`,`字符串`,`动态规划`  |  中等  |    |
+| 0141 | [环形链表](/solution/0101-0200/0141.Linked%20List%20Cycle/README.md)                                                                      |  `哈希表`,`链表`,`双指针`  |  简单  |    |
 | 0142 | [环形链表 II](/solution/0101-0200/0142.Linked%20List%20Cycle%20II/README.md)                                                              |  `哈希表`,`链表`,`双指针`  |  中等  |    |
 | 0151 | [反转字符串中的单词](/solution/0101-0200/0151.Reverse%20Words%20in%20a%20String/README.md)                                                     |  `双指针`,`字符串`  |  中等  |    |
 | 0153 | [寻找旋转排序数组中的最小值](/solution/0101-0200/0153.Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md)                                    | `数组`,`二分查找`                  |  中等  |    |
