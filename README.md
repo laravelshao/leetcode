@@ -62,6 +62,7 @@
 | 0077 | [组合](/solution/0001-0100/0077.Combinations/README.md)                                                                                 |  `回溯`  |  中等  |    |
 | 0079 | [单词搜索](/solution/0001-0100/0079.Word%20Search/README.md)                                                                              |  `数组`,`回溯`,`矩阵`  |  中等  |    |
 | 0080 | [删除有序数组中的重复项 II](/solution/0001-0100/0080.Remove%20Duplicates%20from%20Sorted%20Array%20II/README.md)                                 |  `数组`,`双指针`  |  中等  |    |
+| 0082 | [删除排序链表中的重复元素 II](/solution/0001-0100/0082.Remove%20Duplicates%20from%20Sorted%20List%20II/README.md)                                 |  `链表`,`双指针`  |  中等  |    |
 | 0086 | [分隔链表](/solution/0001-0100/0086.Partition%20List/README.md)                                                                           |  `链表`,`双指针`  |  中等  |    |
 | 0088 | [合并两个有序数组](/solution/0001-0100/0088.Merge%20Sorted%20Array/README.md)                                                                 |  `数组`,`双指针`,`排序`  |  简单  |    |
 | 0089 | [格雷编码](/solution/0001-0100/0089.Gray%20Code/README.md)                                                                                |  `位运算`,`数学`,`回溯`  |  中等  |    |
