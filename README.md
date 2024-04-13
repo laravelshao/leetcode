@@ -40,6 +40,7 @@
 | 0038 | [外观数列](/solution/0001-0100/0038.Count%20and%20Say/README.md)                                                                          | `字符串`                        |  中等  |    |
 | 0039 | [组合总和](/solution/0001-0100/0039.Combination%20Sum/README.md)                                                                          | `数组`,`回溯`                    |  中等  |    |
 | 0040 | [组合总和 II](/solution/0001-0100/0040.Combination%20Sum%20II/README.md)                                                                  | `数组`,`回溯`                    |  中等  |    |
+| 0042 | [接雨水](/solution/0001-0100/0042.Trapping%20Rain%20Water/README.md)                                                                     |  `栈`,`数组`,`双指针`,`动态规划`,`单调栈`  |  困难  |    |
 | 0043 | [字符串相乘](/solution/0001-0100/0043.Multiply%20Strings/README.md)                                                                        | `数学`,`字符串`,`模拟`              |  中等  |    |
 | 0045 | [跳跃游戏 II](/solution/0001-0100/0045.Jump%20Game%20II/README.md)                                                                        | `贪心`,`数组`,`动态规划`             |  中等  |    |
 | 0046 | [全排列](/solution/0001-0100/0046.Permutations/README.md)                                                                                | `数组`,`回溯`                    |  中等  |    |
