@@ -127,6 +127,7 @@
 | 0278 | [第一个错误的版本](/solution/0201-0300/0278.First%20Bad%20Version/README.md)                                                                  |  `二分查找`,`交互`  |  简单  |    |
 | 0283 | [移动零](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                               | `数组`,`双指针`                   |  简单  |    |
 | 0287 | [寻找重复数](/solution/0201-0300/0287.Find%20the%20Duplicate%20Number/README.md)                                                           |  `位运算`,`数组`,`双指针`,`二分查找`  |  中等  |    |
+| 0290 | [单词规律](/solution/0201-0300/0290.Word%20Pattern/README.md)                                                                             |  `哈希表`,`字符串`  |  简单  |    |
 | 0300 | [最长递增子序列](/solution/0201-0300/0300.Longest%20Increasing%20Subsequence/README.md)                                                      |  `数组`,`二分查找`,`动态规划`  |  中等  |    |
 | 0322 | [零钱兑换](/solution/0301-0400/0322.Coin%20Change/README.md)                                                                              |  `广度优先搜索`,`数组`,`动态规划`  |  中等  |    |
 | 0343 | [整数拆分](/solution/0301-0400/0343.Integer%20Break/README.md)                                                                            |  `数学`,`动态规划`  |  中等  |    |
