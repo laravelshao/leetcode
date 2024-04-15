@@ -109,6 +109,7 @@
 | 0209 | [长度最小的子数组](/solution/0201-0300/0209.Minimum%20Size%20Subarray%20Sum/README.md)                                                        | `数组`,`二分查找`,`前缀和`,`滑动窗口`     |  中等  |    |
 | 0213 | [打家劫舍 II](/solution/0201-0300/0213.House%20Robber%20II/README.md)                                                                     |  `数组`,`动态规划`  |  中等  |    |
 | 0215 | [数组中的第K个最大元素](/solution/0201-0300/0215.Kth%20Largest%20Element%20in%20an%20Array/README.md)                                           |  `数组`,`分治`,`快速选择`,`排序`,`堆（优先队列）`  |  中等  |    |
+| 0219 | [存在重复元素 II](/solution/0201-0300/0219.Contains%20Duplicate%20II/README.md)                                                             |  `数组`,`哈希表`,`滑动窗口`  |  简单  |    |
 | 0221 | [最大正方形](/solution/0201-0300/0221.Maximal%20Square/README.md)                                                                          |  `数组`,`动态规划`,`矩阵`  |  中等  |    |
 | 0222 | [完全二叉树的节点个数](/solution/0201-0300/0222.Count%20Complete%20Tree%20Nodes/README.md)                                                      |  `位运算`,`树`,`二分查找`,`二叉树`  |  简单  |    |
 | 0226 | [翻转二叉树](/solution/0201-0300/0226.Invert%20Binary%20Tree/README.md)                                                                    |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
