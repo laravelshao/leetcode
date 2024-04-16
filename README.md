@@ -114,6 +114,7 @@
 | 0221 | [最大正方形](/solution/0201-0300/0221.Maximal%20Square/README.md)                                                                          |  `数组`,`动态规划`,`矩阵`  |  中等  |    |
 | 0222 | [完全二叉树的节点个数](/solution/0201-0300/0222.Count%20Complete%20Tree%20Nodes/README.md)                                                      |  `位运算`,`树`,`二分查找`,`二叉树`  |  简单  |    |
 | 0226 | [翻转二叉树](/solution/0201-0300/0226.Invert%20Binary%20Tree/README.md)                                                                    |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
+| 0228 | [汇总区间](/solution/0201-0300/0228.Summary%20Ranges/README.md)                                                                           |  `数组`  |  简单  |    |
 | 0230 | [二叉搜索树中第K小的元素](/solution/0201-0300/0230.Kth%20Smallest%20Element%20in%20a%20BST/README.md)                                            |  `树`,`深度优先搜索`,`二叉搜索树`,`二叉树`  |  中等  |    |
 | 0231 | [2 的幂](/solution/0201-0300/0231.Power%20of%20Two/README.md)                                                                           |  `位运算`,`递归`,`数学`  |  简单  |    |
 | 0232 | [用栈实现队列](/solution/0201-0300/0232.Implement%20Queue%20using%20Stacks/README.md)                                                       |  `栈`,`设计`,`队列`  |  简单  |    |
