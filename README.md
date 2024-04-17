@@ -102,6 +102,7 @@
 | 0153 | [寻找旋转排序数组中的最小值](/solution/0101-0200/0153.Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md)                                    | `数组`,`二分查找`                  |  中等  |    |
 | 0155 | [最小栈](/solution/0101-0200/0155.Min%20Stack/README.md)                                                                                 |  `栈`,`设计`  |  中等  |    |
 | 0160 | [相交链表](/solution/0101-0200/0160.Intersection%20of%20Two%20Linked%20Lists/README.md)                                                   |  `哈希表`,`链表`,`双指针`  |  简单  |    |
+| 0162 | [寻找峰值](/solution/0101-0200/0162.Find%20Peak%20Element/README.md)                                                                      |  `数组`,`二分查找`  |  中等  |    |
 | 0167 | [两数之和II输入有序数组](/solution/0101-0200/0167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/README.md)                                   | `数组`,`双指针`,`二分查找`            |  中等  |
 | 0169 | [多数元素](/solution/0101-0200/0169.Majority%20Element/README.md)                                                                         |  `数组`,`哈希表`,`分治`,`计数`,`排序`  |  简单  |    |
 | 0179 | [最大数](/solution/0101-0200/0179.Largest%20Number/README.md)                                                                            |  `贪心`,`数组`,`字符串`,`排序`  |  中等  |    |
