@@ -73,6 +73,7 @@
 | 0088 | [合并两个有序数组](/solution/0001-0100/0088.Merge%20Sorted%20Array/README.md)                                                                 |  `数组`,`双指针`,`排序`  |  简单  |    |
 | 0089 | [格雷编码](/solution/0001-0100/0089.Gray%20Code/README.md)                                                                                |  `位运算`,`数学`,`回溯`  |  中等  |    |
 | 0092 | [反转链表 II](/solution/0001-0100/0092.Reverse%20Linked%20List%20II/README.md)                                                            |  `链表`  |  中等  |    |
+| 0094 | [二叉树的中序遍历](/solution/0001-0100/0094.Binary%20Tree%20Inorder%20Traversal/README.md)                                                    |  `栈`,`树`,`深度优先搜索`,`二叉树`  |  简单  |    |
 | 0098 | [验证二叉搜索树](/solution/0001-0100/0098.Validate%20Binary%20Search%20Tree/README.md)                                                       |  `树`,`深度优先搜索`,`二叉搜索树`,`二叉树`  |  中等  |    |
 | 0100 | [相同的树](/solution/0001-0100/0100.Same%20Tree/README.md)                                                                                |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
 | 0101 | [对称二叉树](/solution/0101-0200/0101.Symmetric%20Tree/README.md)                                                                          |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
