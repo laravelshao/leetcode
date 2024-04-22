@@ -59,6 +59,7 @@
 | 0062 | [不同路径](/solution/0001-0100/0062.Unique%20Paths/README.md)                                                                             | `数学`,`动态规划`,`组合数学`           |  中等  |    |
 | 0063 | [不同路径 II](/solution/0001-0100/0063.Unique%20Paths%20II/README.md)                                                                     |  `数组`,`动态规划`,`矩阵`  |  中等  |    |
 | 0064 | [最小路径和](/solution/0001-0100/0064.Minimum%20Path%20Sum/README.md)                                                                      | `数组`,`动态规划`,`矩阵`             |  中等  |    |
+| 0066 | [加一](/solution/0001-0100/0066.Plus%20One/README.md)                                                                                   |  `数组`,`数学`  |  简单  |    |
 | 0067 | [二进制求和](/solution/0001-0100/0067.Add%20Binary/README.md)                                                                              |  `位运算`,`数学`,`字符串`,`模拟`  |  简单  |    |
 | 0070 | [爬楼梯](/solution/0001-0100/0070.Climbing%20Stairs/README.md)                                                                           | `记忆化搜索`,`数学`,`动态规划`          |  简单  |    |
 | 0072 | [编辑距离](/solution/0001-0100/0072.Edit%20Distance/README.md)                                                                            |  `字符串`,`动态规划`  |  中等  |    |
