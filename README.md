@@ -107,6 +107,7 @@
 | 0162 | [寻找峰值](/solution/0101-0200/0162.Find%20Peak%20Element/README.md)                                                                      |  `数组`,`二分查找`  |  中等  |    |
 | 0167 | [两数之和II输入有序数组](/solution/0101-0200/0167.Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted/README.md)                                   | `数组`,`双指针`,`二分查找`            |  中等  |
 | 0169 | [多数元素](/solution/0101-0200/0169.Majority%20Element/README.md)                                                                         |  `数组`,`哈希表`,`分治`,`计数`,`排序`  |  简单  |    |
+| 0172 | [阶乘后的零](/solution/0101-0200/0172.Factorial%20Trailing%20Zeroes/README.md)                                                             |  `数学`  |  中等  |    |
 | 0179 | [最大数](/solution/0101-0200/0179.Largest%20Number/README.md)                                                                            |  `贪心`,`数组`,`字符串`,`排序`  |  中等  |    |
 | 0189 | [轮转数组](/solution/0101-0200/0189.Rotate%20Array/README.md)                                                                             |  `数组`,`数学`,`双指针`  |  中等  |    |
 | 0198 | [打家劫舍](/solution/0101-0200/0198.House%20Robber/README.md)                                                                             |  `数组`,`动态规划`  |  中等  |    |
