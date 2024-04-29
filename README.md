@@ -140,6 +140,7 @@
 | 0278 | [第一个错误的版本](/solution/0201-0300/0278.First%20Bad%20Version/README.md)                                                                  |  `二分查找`,`交互`  |  简单  |    |
 | 0283 | [移动零](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                               | `数组`,`双指针`                   |  简单  |    |
 | 0287 | [寻找重复数](/solution/0201-0300/0287.Find%20the%20Duplicate%20Number/README.md)                                                           |  `位运算`,`数组`,`双指针`,`二分查找`  |  中等  |    |
+| 0289 | [生命游戏](/solution/0201-0300/0289.Game%20of%20Life/README.md)                                                                           |  `数组`,`矩阵`,`模拟`  |  中等  |    |
 | 0290 | [单词规律](/solution/0201-0300/0290.Word%20Pattern/README.md)                                                                             |  `哈希表`,`字符串`  |  简单  |    |
 | 0300 | [最长递增子序列](/solution/0201-0300/0300.Longest%20Increasing%20Subsequence/README.md)                                                      |  `数组`,`二分查找`,`动态规划`  |  中等  |    |
 | 0322 | [零钱兑换](/solution/0301-0400/0322.Coin%20Change/README.md)                                                                              |  `广度优先搜索`,`数组`,`动态规划`  |  中等  |    |
@@ -161,7 +162,7 @@
 | 0498 | [对角线遍历](/solution/0401-0500/0498.Diagonal%20Traverse/README.md)                                                                       | `数组`,`矩阵`,`模拟`               |  中等  |    |
 | 0509 | [斐波那契数](/solution/0501-0600/0509.Fibonacci%20Number/README.md)                                                                        | `递归`,`记忆化搜索`,`数学`,`动态规划`     |  简单  |    |
 | 0530 | [二叉搜索树的最小绝对差](/solution/0501-0600/0530.Minimum%20Absolute%20Difference%20in%20BST/README.md)                                          |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉搜索树`,`二叉树`  |  简单  |    |
-| 0543 | [二叉树的直径](/solution/0501-0600/0543.Diameter%20of%20Binary%20Tree/README.md)                                                             |  `树`,`深度优先搜索`,`二叉树`  |  简单  |    |
+| 0543 | [二叉树的直径](/solution/0501-0600/0543.Diameter%20of%20Binary%20Tree/README.md)                                                            |  `树`,`深度优先搜索`,`二叉树`  |  简单  |    |
 | 0561 | [数组拆分](/solution/0501-0600/0561.Array%20Partition/README.md)                                                                          | `贪心`,`数组`,`计数排序`,`排序`        |  简单  |    |
 | 0557 | [反转字符串中的单词 III](/solution/0501-0600/0557.Reverse%20Words%20in%20a%20String%20III/README.md)                                           | `双指针`,`字符串`                  |  简单  |    |
 | 0637 | [二叉树的层平均值](/solution/0601-0700/0637.Average%20of%20Levels%20in%20Binary%20Tree/README.md)                                             |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
