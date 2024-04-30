@@ -11,7 +11,8 @@ class Solution {
             for(int j = 0; j < coins.length; j++) {
                 if(coins[j] <= i) {
                     // 包含2种情况：
-                    // 1、选择当前硬币，剩余金额为i-coins[j]，硬币数为dp[i - coins[j]] + 1
+                    // 1、不选当前硬币，为 dp[i]
+                    // 2、选择当前硬币，剩余金额为i-coins[j]，硬币数为dp[i - coins[j]] + 1
                     dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
                 }
             }
