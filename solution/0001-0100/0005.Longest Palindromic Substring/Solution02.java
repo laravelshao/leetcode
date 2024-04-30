@@ -1,4 +1,7 @@
 class Solution {
+    /**
+     * 方法二：枚举回文中间点
+     */
     public String longestPalindrome(String s) {
 
         // 字符串长度
