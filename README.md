@@ -48,6 +48,7 @@
 | 0048 | [旋转图像](/solution/0001-0100/0048.Rotate%20Image/README.md)                                                                             | `数组`,`数学`,`矩阵`               | 中等 |  |
 | 0049 | [字母异位词分组](/solution/0001-0100/0049.Group%20Anagrams/README.md)                                                                        | `数组`,`哈希表`,`字符串`,`排序`        |  中等  |    |
 | 0050 | [Pow(x, n)](/solution/0001-0100/0050.Pow%28x%2C%20n%29/README.md)                                                                     | `递归`,`数学`                    |  中等  |    |
+| 0051 | [N 皇后](/solution/0001-0100/0051.N-Queens/README.md)                                                                                   |  `数组`,`回溯`  |  困难  |    |
 | 0053 | [最大子数组和](/solution/0001-0100/0053.Maximum%20Subarray/README.md)                                                                       | `数组`,`分治`,`动态规划`             |  中等  |    |
 | 0054 | [螺旋矩阵](/solution/0001-0100/0054.Spiral%20Matrix/README.md)                                                                            | `数组`,`矩阵`,`模拟`               |  中等  |    |
 | 0055 | [跳跃游戏](/solution/0001-0100/0055.Jump%20Game/README.md)                                                                                | `贪心`,`数组`,`动态规划`             |  中等  |    |
