@@ -5,7 +5,7 @@ class Solution {
         // 1、当 matrix[i][j] = 0，dp[i, j] = 0
         // 2、当 matrix[i][j] = 1，由左方、上方、左上方位置的dp子问题决定，
         // 则 dp[i, j] = min(dp[i, j - 1], dp[i - 1, j], dp[i - 1, j - 1]) + 1
-        // 初始状态：第一行第一列，则以位置 (i,j) 为右下角的最大正方形的边长最大只能是 1，dp[i, j] = 1
+        // 初始状态：首行首列，则以位置 (i,j) 为右下角的最大正方形的边长最大只能是 1，当元素为1时，dp[i, j] = 1
 
         int m = matrix.length, n = matrix[0].length;
         int[][] dp = new int[m][n];
