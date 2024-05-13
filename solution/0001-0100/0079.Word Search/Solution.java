@@ -22,6 +22,7 @@ class Solution {
             return true;
         }
 
+        // 标记当前下标元素，将字符串修改为空字符串，代表此元素已访问过，防止之后搜索时重复访问
         board[i][j] = '\0';
         // 递归判断上下左右方向是否支持，只要有一个方向满足，就满足
         boolean res = dfs(board, word, i - 1, j, k + 1) || dfs(board, word, i + 1, j, k + 1)
