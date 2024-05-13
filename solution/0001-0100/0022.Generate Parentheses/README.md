@@ -37,3 +37,4 @@
 
 **方法一：递归DFS **
 
+参考题解：https://leetcode.cn/problems/generate-parentheses/solutions/35947/hui-su-suan-fa-by-liweiwei1419/
