@@ -15,25 +15,25 @@ class Solution {
             return head;
         }
 
-        ListNode cur = head;
         // 统计节点数
-        int count = 0;
-        for (; cur != null; cur = cur.next) {
+        ListNode cur = head;
+        int count = 1; // cur 就是第一个节点
+        while (cur.next != null) {
             count++;
+            cur = cur.next;
         }
 
-        // 如果 k % count 等于 0 就是原始状态
         k %= count;
+        // 如果 k % count 等于 0 就是原始状态
         if (k == 0) {
             return head;
         }
 
-        ListNode slow = head, fast = head;
+        ListNode fast = head, slow = head;
         // 快指针先走 k 步
         while (k-- > 0) {
             fast = fast.next;
         }
-
         // 快慢指针一起走
         while (fast.next != null) {
             fast = fast.next;
@@ -43,6 +43,7 @@ class Solution {
         ListNode ans = slow.next;
         slow.next = null;
         fast.next = head;
+
         return ans;
     }
 }
