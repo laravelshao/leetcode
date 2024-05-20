@@ -14,35 +14,30 @@
  * }
  */
 class Solution {
-
-    // Map<Val, idx>
-    private Map<Integer, Integer> inOrderMap = new HashMap<>();
-
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        // 中序遍历：左子节点->根节点->右子节点
-        // 后序遍历：左子节点->右子节点->根节点，后序遍历的最后一个节点为数的根节点
 
-        // 参考题解：https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solutions/50561/tu-jie-gou-zao-er-cha-shu-wei-wan-dai-xu-by-user72
-        for (int i = 0; i < inorder.length; i++) {
-            inOrderMap.put(inorder[i], i);
-        }
-
-        return dfs(postorder, 0, inorder.length - 1, 0, postorder.length - 1);
+        return recur(inorder, 0, inorder.length - 1, postorder, 0, postorder.length - 1);
     }
 
-    private TreeNode dfs(int[] postorder, int inLeft, int inRight, int postLeft, int postRight) {
+    private TreeNode recur(int[] inorder, int inLeft, int inRight, int[] postorder, int postLeft, int postRight) {
+        // 终止条件
         if (inLeft > inRight || postLeft > postRight) {
             return null;
         }
 
+        // 构造根节点
         int rootVal = postorder[postRight];
-        int rootIdx = inOrderMap.get(rootVal);
-        TreeNode node = new TreeNode(rootVal);
+        TreeNode root = new TreeNode(rootVal);
+        // 计算中旬遍历的分界线索引
+        int pivotIdx = inLeft;
+        while (inorder[pivotIdx] != rootVal) {
+            pivotIdx++;
+        }
 
-        // 构造左右子树
-        node.left = dfs(postorder, inLeft, rootIdx - 1, postLeft, postLeft + rootIdx - inLeft - 1);
-        node.right = dfs(postorder, rootIdx + 1, inRight, postLeft + rootIdx - inLeft, postRight - 1);
+        // 递归构造左右子树
+        root.left = recur(inorder, inLeft, pivotIdx - 1, postorder, postLeft, postLeft + pivotIdx - inLeft - 1);
+        root.right = recur(inorder, pivotIdx + 1, inRight, postorder, postLeft + pivotIdx - inLeft, postRight - 1);
 
-        return node;
+        return root;
     }
 }
