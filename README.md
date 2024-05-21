@@ -93,6 +93,7 @@
 | 0120 | [三角形最小路径和](/solution/0101-0200/0120.Triangle/README.md)                                                                               |  `数组`,`动态规划`  |  中等  |    |
 | 0121 | [买卖股票的最佳时机](/solution/0101-0200/0121.Best%20Time%20to%20Buy%20and%20Sell%20Stock/README.md)                                           |  `数组`,`动态规划`  |  简单  |    |
 | 0122 | [买卖股票的最佳时机 II](/solution/0101-0200/0122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/README.md)                                   |  `贪心`,`数组`,`动态规划`  |  中等  |    |
+| 0124 | [二叉树中的最大路径和](/solution/0101-0200/0124.Binary%20Tree%20Maximum%20Path%20Sum/README.md)                                                 |  `树`,`深度优先搜索`,`动态规划`,`二叉树`  |  困难  |    |
 | 0125 | [验证回文串](/solution/0101-0200/0125.Valid%20Palindrome/README.md)                                                                        |  `双指针`,`字符串`  |  简单  |    |
 | 0128 | [最长连续序列](/solution/0101-0200/0128.Longest%20Consecutive%20Sequence/README.md)                                                         |  `并查集`,`数组`,`哈希表`  |  中等  |    |
 | 0129 | [求根节点到叶节点数字之和](/solution/0101-0200/0129.Sum%20Root%20to%20Leaf%20Numbers/README.md)                                                   |  `树`,`深度优先搜索`,`二叉树`  |  中等  |    |
