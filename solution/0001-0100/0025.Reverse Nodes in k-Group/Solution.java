@@ -1,37 +1,38 @@
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
+
         ListNode dummy = new ListNode(0, head);
-        ListNode prev = dummy;
+        ListNode pre = dummy;
         while (true) {
-            ListNode last = prev;
+            ListNode tail = pre;
             // 判断剩余元素是否满足k个
-            for (int i = 0; i < k; i++) {
-                last = last.next;
-                if (last == null) {
+            for(int i = 0; i < k; i++) {
+                tail = tail.next;
+                if(tail == null) {
                     return dummy.next;
                 }
             }
 
-            // 翻转k个节点
-            ListNode current = prev.next, next;
-            for (int i = 0; i < k - 1; i++) {
-                next = current.next;
-                current.next = next.next;
-                next.next = prev.next;
-                prev.next = next;
+            // 每组头插法翻转k个节点，只需要遍历k-1次
+            ListNode cur = pre.next, next;
+            for(int i = 0; i < k - 1; i++) {
+                next = cur.next;
+                cur.next = next.next;
+                next.next = pre.next;
+                pre.next = next;
             }
 
-            prev = current;
+            pre = cur;
         }
     }
 }
