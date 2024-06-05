@@ -1,48 +1,40 @@
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode() {}
- * TreeNode(int val) { this.val = val; }
- * TreeNode(int val, TreeNode left, TreeNode right) {
- * this.val = val;
- * this.left = left;
- * this.right = right;
- * }
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
  * }
  */
 class Solution {
 
-    private Integer pre; //前一个值
+    // 前一个值，考虑边界值，用long 的最小值，防止 node.val = Integer.MIN_VALUE
+    private long pre = Long.MIN_VALUE;
 
     public boolean isValidBST(TreeNode root) {
-        pre = null;
-        return dfs(root);
-    }
-
-    private boolean dfs(TreeNode root) {
-        // 二叉搜索树的中序遍历元素时升序排列，只需要判断后一个数字大于前一个数字就行
-        if (root == null) {
+        if(root == null) {
             return true;
         }
-
-        if (!dfs(root.left)) {
+        // 二叉搜索树中旬遍历严格升序排列
+        // 访问左子树
+        if(!isValidBST(root.left)) {
             return false;
         }
 
-        if(pre == null) {
-            pre = root.val;
-        } else if(pre >= root.val) {
+        // 访问当前节点，当前节点小于等于前一节点，不满足
+        if(root.val <= pre) {
             return false;
         }
         pre = root.val;
 
-        if (!dfs(root.right)) {
-            return false;
-        }
-
-        return true;
+        // 访问右子树
+        return isValidBST(root.right);
     }
 }

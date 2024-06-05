@@ -51,5 +51,7 @@
 
 或者考虑以 `root` 为根的子树，所有节点的值是否都在合法范围内，递归判断即可。
 
+参考题解：https://leetcode.cn/problems/validate-binary-search-tree/solutions/232885/zhong-xu-bian-li-qing-song-na-xia-bi-xu-miao-dong-/
+
 时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是树中节点的数量。
 
