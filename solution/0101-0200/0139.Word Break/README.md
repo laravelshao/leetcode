@@ -50,6 +50,10 @@
 
 <!-- 这里可写通用的实现逻辑 -->
 
+
+参考官方题解：https://leetcode.cn/problems/word-break/solutions/302471/dan-ci-chai-fen-by-leetcode-solution
+
+
 **方法一：哈希表 + 动态规划**
 
 我们定义 $f[i]$ 表示字符串 $s$ 的前 $i$ 个字符能否拆分成 $wordDict$ 中的单词，初始时 $f[0]=true$，其余为 $false$。答案为 $f[n]$。

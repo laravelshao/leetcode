@@ -2,6 +2,7 @@ class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         // 状态定义：dp[i] 为字符串前i个字符串[0, i - 1]是否可以由 wordDict 中的字符串组成
         // 转移方程：dp[i] = dp[j] && wordDict是否包含子字符串s[j, i - 1]，j ∈ [0, i)
+        // 解释：dp[j] 代表[0, j - 1]的字符串满足；wordDict.contains(s.substring(j, i)) 代表后半部分也满足条件；那么组合起来也满足条件
         // 初始状态：dp[0] = true，代表空字符串
         boolean[] dp = new boolean[s.length() + 1];
         dp[0] = true; // 初始状态
