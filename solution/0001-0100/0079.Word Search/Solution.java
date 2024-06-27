@@ -12,6 +12,9 @@ class Solution {
         return false;
     }
 
+    /**
+     * k：当前目标字符在 word 中的索引
+     */
     private boolean dfs(char[][] board, char[] word, int i, int j, int k) {
         // 行列索引越界 || 当前索引位置元素与目标字符不同
         if (i >= board.length || i < 0 || j >= board[0].length || j < 0 || board[i][j] != word[k]) {
