@@ -1,23 +1,30 @@
 class Solution {
     public void rotate(int[] nums, int k) {
-        int len = nums.length;
-        // k 有可能大于数字长度
-        k %= len;
+
+        int n = nums.length;
+        if(n == 1) {
+            return;
+        }
+
+        // k 是 n 的倍数，则无需轮转
+        k %= n;
+        if(n == 0) {
+            return;
+        }
 
         // 先将数组翻转
-        reverse(nums, 0, len - 1);
+        reverse(nums, 0, n - 1);
         // 将前k个元素翻转
         reverse(nums, 0, k - 1);
         // 将剩余元素翻转
-        reverse(nums, k, len - 1);
+        reverse(nums, k, n - 1);
     }
 
-    // 翻转数组
     private void reverse(int[] nums, int i, int j) {
         while (i < j) {
-            int tmp = nums[j];
-            nums[j] = nums[i];
-            nums[i] = tmp;
+            int tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
             i++;
             j--;
         }
