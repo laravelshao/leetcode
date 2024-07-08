@@ -6,6 +6,7 @@ class Solution {
         for (int i = 0; i < nums.length - 1; i++) {
             // 获取当前这一步能够达到的最大距离
             maxDistance = Math.max(maxDistance, i + nums[i]);
+            // 遇到边界就更新边界，并且步数加一
             if (i == end) {
                 steps++;
                 end = maxDistance;
