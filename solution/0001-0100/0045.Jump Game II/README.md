@@ -60,6 +60,8 @@
 
 时间复杂度 $O(n)$，其中 $n$ 是数组的长度。空间复杂度 $O(1)$。
 
+参考题解：https://leetcode.cn/problems/jump-game-ii/solutions/9347/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-10/
+
 相似题目：
 
 - [55. 跳跃游戏]
