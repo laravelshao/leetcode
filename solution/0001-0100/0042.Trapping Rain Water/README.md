@@ -48,5 +48,7 @@
 
 **方法二：双指针**
 
+推荐方式2
+
 参考题解：https://leetcode.cn/problems/trapping-rain-water/solutions/692342/jie-yu-shui-by-leetcode-solution-tuvc/?envType=study-plan-v2&envId=top-interview-150
 
