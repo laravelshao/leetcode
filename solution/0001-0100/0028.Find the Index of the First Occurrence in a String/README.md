@@ -39,11 +39,15 @@
 
 <!-- 这里可写通用的实现逻辑 -->
 
-**方法一：遍历**
+**方法一：暴力匹配**
 
-以字符串 `haystack` 的每一个字符为起点与字符串 `needle` 进行比较，若发现能够匹配的索引，直接返回即可。
+我们可以让字符串 `needle` 与字符串 `haystack` 的所有长度为 `m` 的子串均匹配一次。
 
-假设字符串 `haystack` 长度为 $n$，字符串 `needle` 长度为 $m$，则时间复杂度为 $O((n-m) \times m)$，空间复杂度 $O(1)$。
+为了减少不必要的匹配，我们每次匹配失败即立刻停止当前子串的匹配，对下一个子串继续匹配。如果当前子串匹配成功，我们返回当前子串的开始位置即可。如果所有子串都匹配失败，则返回 −1。
+
+假设字符串 `haystack` 长度为 `n`，字符串 `needle` 长度为 `m`，则时间复杂度为 `O(n×m)`，空间复杂度 `O(1)`。
+
+参考官方题解：https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/732236/shi-xian-strstr-by-leetcode-solution-ds6y
 
 **方法二：Rabin-Karp 字符串匹配算法**
 
