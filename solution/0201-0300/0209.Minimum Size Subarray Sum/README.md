@@ -61,8 +61,8 @@
 
 初始状态下，start 和 end 都指向下标 0，sum 的值为 0。
 
-每一轮迭代，将 nums[end] 加到 sum，如果 sum≥s，则更新子数组的最小长度（此时子数组的长度是 end−start+1），然后将 nums[start] 从
-sum 中减去并将 start 右移，直到 sum<s，在此过程中同样更新子数组的最小长度。在每一轮迭代的最后，将 end 右移。
+每一轮迭代，将 nums[end] 加到 sum，如果 sum 大于等于 target，则更新子数组的最小长度（此时子数组的长度是 end−start+1），然后将 nums[start] 从
+sum 中减去并将 start 右移，直到 sum 小于 target，在此过程中同样更新子数组的最小长度。在每一轮迭代的最后，将 end 右移。
 
 时间复杂度：O(n)，其中 n 是数组的长度。指针 start 和 end 最多各移动 n 次。空间复杂度：O(1)。
 
