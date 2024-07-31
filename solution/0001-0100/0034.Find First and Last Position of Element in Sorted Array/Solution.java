@@ -15,7 +15,7 @@ class Solution {
     private int search(int[] nums, int x) {
         int left = 0, right = nums.length;
         while (left < right) {
-            int mid = (left + right) / 2;
+            int mid = left + (right - left) / 2;
             if (nums[mid] < x) {
                 left = mid + 1;
             } else {
