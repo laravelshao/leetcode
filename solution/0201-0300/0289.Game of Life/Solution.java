@@ -7,6 +7,7 @@ class Solution {
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 // 统计当前位置周围(3*3范围)活细胞数
+                // 双重遍历会遍历到当前位置需要剔除，起始活细胞数可初始化为 -board[i][j]，遍历后刚好抵消，剩下的就是周围活细胞数
                 int live = -board[i][j];
                 for (int x = i - 1; x <= i + 1; x++) {
                     for (int y = j - 1; y <= j + 1; y++) {
