@@ -33,7 +33,7 @@
 | 0029 | [两数相除](/solution/0001-0100/0029.Divide%20Two%20Integers/README.md)                                                                    | `位运算`,`数学`                   |  中等  |    |
 | 0030 | [串联所有单词的子串](/solution/0001-0100/0030.Substring%20with%20Concatenation%20of%20All%20Words/README.md)                                   | `哈希表`,`字符串`,`滑动窗口`           |  困难  |    |
 | 0031 | [下一个排列](/solution/0001-0100/0031.Next%20Permutation/README.md)                                                                        | `数组`,`双指针`                   |  中等  |    |
-| 0032 | [最长有效括号](/solution/0001-0100/0032.Longest%20Valid%20Parentheses/README.md)                                                             |  `栈`,`字符串`,`动态规划`  |  困难  |    |
+| 0032 | [最长有效括号](/solution/0001-0100/0032.Longest%20Valid%20Parentheses/README.md)                                                            |  `栈`,`字符串`,`动态规划`  |  困难  |    |
 | 0033 | [搜索旋转排序数组](/solution/0001-0100/0033.Search%20in%20Rotated%20Sorted%20Array/README.md)                                                 | `数组`,`二分查找`                  |  中等  |    |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](/solution/0001-0100/0034.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md) | `数组`,`二分查找`                  |  中等  |    |
 | 0035 | [搜索插入位置](/solution/0001-0100/0035.Search%20Insert%20Position/README.md)                                                               | `数组`,`二分查找`                  | 简单 |  |
@@ -106,6 +106,7 @@
 | 0146 | [LRU 缓存](/solution/0101-0200/0146.LRU%20Cache/README.md)                                                                              |  `设计`,`哈希表`,`链表`,`双向链表`  |  中等  |    |
 | 0148 | [排序链表](/solution/0101-0200/0148.Sort%20List/README.md)                                                                                |  `链表`,`双指针`,`分治`,`排序`,`归并排序`  |  中等  |    |
 | 0151 | [反转字符串中的单词](/solution/0101-0200/0151.Reverse%20Words%20in%20a%20String/README.md)                                                     |  `双指针`,`字符串`  |  中等  |    |
+| 0152 | [乘积最大子数组](/solution/0101-0200/0152.Maximum%20Product%20Subarray/README.md)                                                            |  `数组`,`动态规划`  |  中等  |    |
 | 0153 | [寻找旋转排序数组中的最小值](/solution/0101-0200/0153.Find%20Minimum%20in%20Rotated%20Sorted%20Array/README.md)                                    | `数组`,`二分查找`                  |  中等  |    |
 | 0155 | [最小栈](/solution/0101-0200/0155.Min%20Stack/README.md)                                                                                 |  `栈`,`设计`  |  中等  |    |
 | 0160 | [相交链表](/solution/0101-0200/0160.Intersection%20of%20Two%20Linked%20Lists/README.md)                                                   |  `哈希表`,`链表`,`双指针`  |  简单  |    |
