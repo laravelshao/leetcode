@@ -33,6 +33,7 @@
 | 0029 | [两数相除](/solution/0001-0100/0029.Divide%20Two%20Integers/README.md)                                                                    | `位运算`,`数学`                   |  中等  |    |
 | 0030 | [串联所有单词的子串](/solution/0001-0100/0030.Substring%20with%20Concatenation%20of%20All%20Words/README.md)                                   | `哈希表`,`字符串`,`滑动窗口`           |  困难  |    |
 | 0031 | [下一个排列](/solution/0001-0100/0031.Next%20Permutation/README.md)                                                                        | `数组`,`双指针`                   |  中等  |    |
+| 0032 | [最长有效括号](/solution/0001-0100/0032.Longest%20Valid%20Parentheses/README.md)                                                             |  `栈`,`字符串`,`动态规划`  |  困难  |    |
 | 0033 | [搜索旋转排序数组](/solution/0001-0100/0033.Search%20in%20Rotated%20Sorted%20Array/README.md)                                                 | `数组`,`二分查找`                  |  中等  |    |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](/solution/0001-0100/0034.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md) | `数组`,`二分查找`                  |  中等  |    |
 | 0035 | [搜索插入位置](/solution/0001-0100/0035.Search%20Insert%20Position/README.md)                                                               | `数组`,`二分查找`                  | 简单 |  |
