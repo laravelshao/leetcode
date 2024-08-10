@@ -99,6 +99,7 @@
 | 0125 | [验证回文串](/solution/0101-0200/0125.Valid%20Palindrome/README.md)                                                                        |  `双指针`,`字符串`  |  简单  |    |
 | 0128 | [最长连续序列](/solution/0101-0200/0128.Longest%20Consecutive%20Sequence/README.md)                                                         |  `并查集`,`数组`,`哈希表`  |  中等  |    |
 | 0129 | [求根节点到叶节点数字之和](/solution/0101-0200/0129.Sum%20Root%20to%20Leaf%20Numbers/README.md)                                                   |  `树`,`深度优先搜索`,`二叉树`  |  中等  |    |
+| 0131 | [分割回文串](/solution/0101-0200/0131.Palindrome%20Partitioning/README.md)                                                                  |  `字符串`,`动态规划`,`回溯`  |  中等  |    |
 | 0136 | [只出现一次的数字](/solution/0101-0200/0136.Single%20Number/README.md)                                                                        |  `位运算`,`数组`  |  简单  |    |
 | 0138 | [随机链表的复制](/solution/0101-0200/0138.Copy%20List%20with%20Random%20Pointer/README.md)                                                   |  `哈希表`,`链表`  |  中等  |    |
 | 0139 | [单词拆分](/solution/0101-0200/0139.Word%20Break/README.md)                                                                               |  `字典树`,`记忆化搜索`,`数组`,`哈希表`,`字符串`,`动态规划`  |  中等  |    |
