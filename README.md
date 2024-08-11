@@ -173,6 +173,7 @@
 | 0509 | [斐波那契数](/solution/0501-0600/0509.Fibonacci%20Number/README.md)                                                                        | `递归`,`记忆化搜索`,`数学`,`动态规划`     |  简单  |    |
 | 0530 | [二叉搜索树的最小绝对差](/solution/0501-0600/0530.Minimum%20Absolute%20Difference%20in%20BST/README.md)                                          |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉搜索树`,`二叉树`  |  简单  |    |
 | 0543 | [二叉树的直径](/solution/0501-0600/0543.Diameter%20of%20Binary%20Tree/README.md)                                                            |  `树`,`深度优先搜索`,`二叉树`  |  简单  |    |
+| 0560 | [和为 K 的子数组](/solution/0501-0600/0560.Subarray%20Sum%20Equals%20K/README.md)                                                            |  `数组`,`哈希表`,`前缀和`  |  中等  |    |
 | 0561 | [数组拆分](/solution/0501-0600/0561.Array%20Partition/README.md)                                                                          | `贪心`,`数组`,`计数排序`,`排序`        |  简单  |    |
 | 0557 | [反转字符串中的单词 III](/solution/0501-0600/0557.Reverse%20Words%20in%20a%20String%20III/README.md)                                           | `双指针`,`字符串`                  |  简单  |    |
 | 0637 | [二叉树的层平均值](/solution/0601-0700/0637.Average%20of%20Levels%20in%20Binary%20Tree/README.md)                                             |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
