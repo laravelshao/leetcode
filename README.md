@@ -41,6 +41,7 @@
 | 0038 | [外观数列](/solution/0001-0100/0038.Count%20and%20Say/README.md)                                                                          | `字符串`                        |  中等  |    |
 | 0039 | [组合总和](/solution/0001-0100/0039.Combination%20Sum/README.md)                                                                          | `数组`,`回溯`                    |  中等  |    |
 | 0040 | [组合总和 II](/solution/0001-0100/0040.Combination%20Sum%20II/README.md)                                                                  | `数组`,`回溯`                    |  中等  |    |
+| 0041 | [缺失的第一个正数](/solution/0001-0100/0041.First%20Missing%20Positive/README.md)                                                             |  `数组`,`哈希表`  |  困难  |    |
 | 0042 | [接雨水](/solution/0001-0100/0042.Trapping%20Rain%20Water/README.md)                                                                     |  `栈`,`数组`,`双指针`,`动态规划`,`单调栈`  |  困难  |    |
 | 0043 | [字符串相乘](/solution/0001-0100/0043.Multiply%20Strings/README.md)                                                                        | `数学`,`字符串`,`模拟`              |  中等  |    |
 | 0045 | [跳跃游戏 II](/solution/0001-0100/0045.Jump%20Game%20II/README.md)                                                                        | `贪心`,`数组`,`动态规划`             |  中等  |    |
@@ -99,7 +100,7 @@
 | 0125 | [验证回文串](/solution/0101-0200/0125.Valid%20Palindrome/README.md)                                                                        |  `双指针`,`字符串`  |  简单  |    |
 | 0128 | [最长连续序列](/solution/0101-0200/0128.Longest%20Consecutive%20Sequence/README.md)                                                         |  `并查集`,`数组`,`哈希表`  |  中等  |    |
 | 0129 | [求根节点到叶节点数字之和](/solution/0101-0200/0129.Sum%20Root%20to%20Leaf%20Numbers/README.md)                                                   |  `树`,`深度优先搜索`,`二叉树`  |  中等  |    |
-| 0131 | [分割回文串](/solution/0101-0200/0131.Palindrome%20Partitioning/README.md)                                                                  |  `字符串`,`动态规划`,`回溯`  |  中等  |    |
+| 0131 | [分割回文串](/solution/0101-0200/0131.Palindrome%20Partitioning/README.md)                                                                 |  `字符串`,`动态规划`,`回溯`  |  中等  |    |
 | 0136 | [只出现一次的数字](/solution/0101-0200/0136.Single%20Number/README.md)                                                                        |  `位运算`,`数组`  |  简单  |    |
 | 0138 | [随机链表的复制](/solution/0101-0200/0138.Copy%20List%20with%20Random%20Pointer/README.md)                                                   |  `哈希表`,`链表`  |  中等  |    |
 | 0139 | [单词拆分](/solution/0101-0200/0139.Word%20Break/README.md)                                                                               |  `字典树`,`记忆化搜索`,`数组`,`哈希表`,`字符串`,`动态规划`  |  中等  |    |
@@ -173,7 +174,7 @@
 | 0509 | [斐波那契数](/solution/0501-0600/0509.Fibonacci%20Number/README.md)                                                                        | `递归`,`记忆化搜索`,`数学`,`动态规划`     |  简单  |    |
 | 0530 | [二叉搜索树的最小绝对差](/solution/0501-0600/0530.Minimum%20Absolute%20Difference%20in%20BST/README.md)                                          |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉搜索树`,`二叉树`  |  简单  |    |
 | 0543 | [二叉树的直径](/solution/0501-0600/0543.Diameter%20of%20Binary%20Tree/README.md)                                                            |  `树`,`深度优先搜索`,`二叉树`  |  简单  |    |
-| 0560 | [和为 K 的子数组](/solution/0501-0600/0560.Subarray%20Sum%20Equals%20K/README.md)                                                            |  `数组`,`哈希表`,`前缀和`  |  中等  |    |
+| 0560 | [和为 K 的子数组](/solution/0501-0600/0560.Subarray%20Sum%20Equals%20K/README.md)                                                           |  `数组`,`哈希表`,`前缀和`  |  中等  |    |
 | 0561 | [数组拆分](/solution/0501-0600/0561.Array%20Partition/README.md)                                                                          | `贪心`,`数组`,`计数排序`,`排序`        |  简单  |    |
 | 0557 | [反转字符串中的单词 III](/solution/0501-0600/0557.Reverse%20Words%20in%20a%20String%20III/README.md)                                           | `双指针`,`字符串`                  |  简单  |    |
 | 0637 | [二叉树的层平均值](/solution/0601-0700/0637.Average%20of%20Levels%20in%20Binary%20Tree/README.md)                                             |  `树`,`深度优先搜索`,`广度优先搜索`,`二叉树`  |  简单  |    |
