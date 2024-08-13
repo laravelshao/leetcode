@@ -186,6 +186,7 @@
 | 0706 | [设计哈希映射](/solution/0701-0800/0706.Design%20HashMap/README.md)                                                                         | `设计`,`数组`,`哈希表`,`链表`,`哈希函数`  |  简单  |    |
 | 0707 | [设计链表](/solution/0701-0800/0707.Design%20Linked%20List/README.md)                                                                     | `设计`,`链表`                    |  中等  |    |
 | 0724 | [寻找数组的中心下标](/solution/0701-0800/0724.Find%20Pivot%20Index/README.md)                                                                  | `数组`,`前缀和`                   | 简单 | 与 #1991 相同 |
+| 0739 | [每日温度](/solution/0701-0800/0739.Daily%20Temperatures/README.md)                                                                       |  `栈`,`数组`,`单调栈`  |  中等  |    |
 | 0796 | [旋转字符串](/solution/0701-0800/0796.Rotate%20String/README.md)                                                                           |  `字符串`,`字符串匹配`  |  简单  |    |
 | 0876 | [链表的中间结点](/solution/0801-0900/0876.Middle%20of%20the%20Linked%20List/README.md)                                                       |  `链表`,`双指针`  |  简单  |    |
 | 0946 | [验证栈序列](/solution/0901-1000/0946.Validate%20Stack%20Sequences/README.md)                                                              |  `栈`,`数组`,`模拟`  |  中等  |    |
