@@ -157,6 +157,7 @@
 | 0322 | [零钱兑换](/solution/0301-0400/0322.Coin%20Change/README.md)                                                                              |  `广度优先搜索`,`数组`,`动态规划`  |  中等  |    |
 | 0343 | [整数拆分](/solution/0301-0400/0343.Integer%20Break/README.md)                                                                            |  `数学`,`动态规划`  |  中等  |    |
 | 0344 | [反转字符串](/solution/0301-0400/0344.Reverse%20String/README.md)                                                                          | `双指针`,`字符串`                  |  简单  |    |
+| 0347 | [前 K 个高频元素](/solution/0301-0400/0347.Top%20K%20Frequent%20Elements/README.md)                                                         |  `数组`,`哈希表`,`分治`,`桶排序`,`计数`,`快速选择`,`排序`,`堆（优先队列）`  |  中等  |    |
 | 0349 | [两个数组的交集](/solution/0301-0400/0349.Intersection%20of%20Two%20Arrays/README.md)                                                        | `数组`,`哈希表`,`双指针`,`二分查找`,`排序` |  简单  |    |
 | 0371 | [两整数之和](/solution/0301-0400/0371.Sum%20of%20Two%20Integers/README.md)                                                                 |  `位运算`,`数学`  |  中等  |    |
 | 0380 | [O(1) 时间插入、删除和获取随机元素](/solution/0301-0400/0380.Insert%20Delete%20GetRandom%20O%281%29/README.md)                                      |  `设计`,`数组`,`哈希表`,`数学`,`随机化`  |  中等  |    |
