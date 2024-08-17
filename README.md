@@ -149,6 +149,7 @@
 | 0266 | [回文排列](/solution/0201-0300/0266.Palindrome%20Permutation/README.md)                                                                   |  `位运算`,`哈希表`,`字符串`  |  简单  |    |
 | 0274 | [H 指数](/solution/0201-0300/0274.H-Index/README.md)                                                                                    |  `数组`,`计数排序`,`排序`  |  中等  |    |
 | 0278 | [第一个错误的版本](/solution/0201-0300/0278.First%20Bad%20Version/README.md)                                                                  |  `二分查找`,`交互`  |  简单  |    |
+| 0279 | [完全平方数](/solution/0201-0300/0279.Perfect%20Squares/README.md)                                                                         |  `广度优先搜索`,`数学`,`动态规划`  |  中等  |    |
 | 0283 | [移动零](/solution/0201-0300/0283.Move%20Zeroes/README.md)                                                                               | `数组`,`双指针`                   |  简单  |    |
 | 0287 | [寻找重复数](/solution/0201-0300/0287.Find%20the%20Duplicate%20Number/README.md)                                                           |  `位运算`,`数组`,`双指针`,`二分查找`  |  中等  |    |
 | 0289 | [生命游戏](/solution/0201-0300/0289.Game%20of%20Life/README.md)                                                                           |  `数组`,`矩阵`,`模拟`  |  中等  |    |
