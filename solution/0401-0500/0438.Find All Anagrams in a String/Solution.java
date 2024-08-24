@@ -1,5 +1,6 @@
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
+
         int m = s.length(), n = p.length();
         List<Integer> ans = new ArrayList<>();
         if (m < n) {
@@ -7,24 +8,28 @@ class Solution {
         }
 
         // 统计字符串 p 中各字符数量
-        int[] pCharCount = new int[26];
-        for (int i = 0; i < n; i++) {
-            pCharCount[p.charAt(i) - 'a']++;
+        int[] pCharCnt = new int[26];
+        for (char c : p.toCharArray()) {
+            pCharCnt[c - 'a']++;
         }
 
-        // 统计当前滑动窗口字符数量
-        int[] windowCharCount = new int[26];
-        // 双指针指向滑动窗口的左右下标，i：结束下标，j：开始下标
-        for (int i = 0, j = 0; i < m; i++) {
-            int k = s.charAt(i) - 'a';
-            windowCharCount[k]++;
-            // 窗口中字符数量大于字符串 p 中指定字符数量
-            while (windowCharCount[k] > pCharCount[k]) {
-                windowCharCount[s.charAt(j++) - 'a']--;
+        // 统计当前窗口内字符数量
+        int[] windowCharCnt = new int[26];
+        // 双指针指向滑动窗口左右下标，i：结束下标，j：开始下标
+        for (int right = 0, left = 0; right < m; right++) {
+            int k = s.charAt(right) - 'a';
+            windowCharCnt[k]++;
+            // 窗口中字符数量大于字符串 p 中指定字符数量，则说明：
+            // 1、出现了p中没有的字符 eg: s=cbae p=abc，指针到s中的e时，
+            // windowCharCnt['e'-'a'] = 1 > pCharCnt['e'-'a'] = 0
+            // 2、出现了s中这个字符大于p中这个字符数量
+            // 所以需要移动左下标缩小窗口，因为我们窗口只匹配完全对应p的
+            while (windowCharCnt[k] > pCharCnt[k]) {
+                windowCharCnt[s.charAt(left++) - 'a']--;
             }
 
-            if (i - j + 1 == n) {
-                ans.add(j);
+            if (right - left + 1 == n) {
+                ans.add(left);
             }
         }
 
