@@ -55,5 +55,47 @@
 
 时间复杂度 $O(m + n)$，空间复杂度 $O(C)$。其中 $m$ 和 $n$ 分别是字符串 $s$ 和 $p$ 的长度；而 $C$ 是字符集大小，在本题中字符集为所有小写字母，所以 $C = 26$。
 
-参考题解：https://leetcode.cn/problems/find-all-anagrams-in-a-string/solutions/645290/438-zhao-dao-zi-fu-chuan-zhong-suo-you-z-nx6b/ 下的 GreenV 评论
+参考题解：https://leetcode.cn/problems/find-all-anagrams-in-a-string/solutions/645290/438-zhao-dao-zi-fu-chuan-zhong-suo-you-z-nx6b/ 下的 GreenV 评论：
+
+```java
+class Solution {
+    public List findAnagrams(String s, String p) {
+
+        List<Integer> res = new ArrayList<>();
+
+        int[] pArr = new int[26];
+        int[] sArr = new int[26];
+
+        for (int i = 0; i < p.length(); i++) {
+            pArr[p.charAt(i) - 'a']++;
+        }
+
+        int left = 0;
+        for (int right = 0; right < s.length(); right++) {
+            // 维护窗口最右下标
+            int curRight = s.charAt(right) - 'a';
+            sArr[curRight]++;
+            // sArr[curRight] > pArr[curRight] 则说明
+            // 1. 出现了p中没有的字符 eg: s=cbae p=abc, 指针到s中的e时, sArr['e'-'a'] = 1 > pArr['e'-'a'] =
+            // 0
+            // 2. 出现了s中这个字符大于p中这个字符数量
+            // 所以需要移动左下标了 要缩小窗口, 因为我们窗口只匹配完全对应p的
+            // left++ 同时left所指的字符sArr[curLeft]也要改变
+            while (sArr[curRight] > pArr[curRight]) {
+                int curLeft = s.charAt(left) - 'a';
+                sArr[curLeft]--;
+                left++;
+            }
+            // 维护窗口数正好时p的长度
+            // 从始至终, 代码走到这个地方, 窗口的大小都不超过p的长度
+            // 凡是超过了的, 多被while(sArr[curRight] > pArr[curRight]) 这个循环缩小了窗口范围
+            if (right - left + 1 == p.length()) {
+                res.add(left);
+            }
+        }
+        return res;
+    }
+}
+
+```
 
