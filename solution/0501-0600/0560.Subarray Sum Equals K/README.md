@@ -38,3 +38,9 @@
 
 <!-- 这里可写通用的实现逻辑 -->
 
+
+### 方法一：前缀和+哈希表
+
+参考题解：https://leetcode.cn/problems/subarray-sum-equals-k/solutions/247577/bao-li-jie-fa-qian-zhui-he-qian-zhui-he-you-hua-ja/
+
+时间复杂度：$O(N)$，这里 $N$ 是数组的长度； 空间复杂度：$O(N)$
