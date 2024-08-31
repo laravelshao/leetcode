@@ -51,16 +51,17 @@
 
 <!-- 这里可写通用的实现逻辑 -->
 
-**方法一：二分查找**
+### 方法一：二分查找
 
-因为数组长度为 `len`，所以数字范围为 `[1, len - 1]`，左指针为 `left = 1`，右指针为 `right = len - 1`，
+因为数组长度为  $len $，所以数字范围为  $[1, len - 1] $，左指针为 $left = 1 $，右指针为  $right = len - 1$，
 
-中间值为 `mid = (left + right) / 2` 统计数组中小于等于 `mid` 的数字个数 `count`，
+这里的左右指针指向的是具体的数字，而不是数组元素下标。 中间值为 $mid = (left + right) / 2$ 统计数组中小于等于 $mid$ 的数字个数 $count$，
 
-如果 `count > mid`，则说明重复的数字在 `[1, mid]` 之间，否则在 `[mid + 1, len - 1]` 之间。
+如果 $count > mid$，则说明重复的数字在 $[1, mid]$ 之间，否则在 $[mid + 1, len - 1]$ 之间。
 
 重复这个过程直到左右指针相遇，返回左指针即可。
 
+参考题解：https://leetcode.cn/problems/find-the-duplicate-number/solutions/7038/er-fen-fa-si-lu-ji-dai-ma-python-by-liweiwei1419/
 
 时间复杂度 $O(n \times \log n)$，其中 $n$ 是数组 $nums$ 的长度。空间复杂度 $O(1)$。
 
