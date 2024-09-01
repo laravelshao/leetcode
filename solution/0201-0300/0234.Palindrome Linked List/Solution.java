@@ -18,9 +18,11 @@ class Solution {
             fast = fast.next.next;
         }
 
+        // 后半部分
         ListNode cur = slow.next;
+        // 截断链表
         slow.next = null;
-        // 翻转后半部分元素
+        // 翻转后半部分链表
         ListNode pre = null;
         while (cur != null) {
             ListNode next = cur.next;
