@@ -57,13 +57,13 @@ for i in range(n):
 
 可以维护一个存储下标的单调栈，从栈底到栈顶的下标对应的温度列表中的温度依次递减。如果一个下标在单调栈里，则表示尚未找到下一次温度更高的下标。
 
-正向遍历温度列表。对于温度列表中的每个元素 `temperatures[i]`，如果栈为空，则直接将 `i` 进栈，
+正向遍历温度列表。对于温度列表中的每个元素 $temperatures[i]$，如果栈为空，则直接将 $i$ 进栈，
 
-如果栈不为空，则比较栈顶元素 prevIndex 对应的温度 temperatures[stack.peek()] 和当前温度 temperatures[i]，如果 temperatures[i] > temperatures[stack.peek()]，
+如果栈不为空，则比较栈顶元素 $prevIndex$ 对应的温度 $temperatures[stack.peek()]$ 和当前温度 $temperatures[i]$，如果 $temperatures[i] > temperatures[stack.peek()]$，
 
-则将栈顶元素移除，并将对应的等待天数赋为 `ans[val] = i - val`，重复上述操作直到栈为空或者栈顶元素对应的温度小于等于当前温度，然后将 `i` 进栈。
+则将栈顶元素移除，并将对应的等待天数赋为 $ans[val] = i - val$，重复上述操作直到栈为空或者栈顶元素对应的温度小于等于当前温度，然后将 $i$ 进栈。
 
 参考官方题解：https://leetcode.cn/problems/daily-temperatures/solutions/283196/mei-ri-wen-du-by-leetcode-solution/
 
-时间复杂度 `O(n)`，空间复杂度 `O(n)`。其中 `n` 为 `temperatures` 数组的长度。
+时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为 $temperatures$ 数组的长度。
 
