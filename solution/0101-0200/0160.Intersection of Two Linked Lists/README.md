@@ -9,7 +9,7 @@
 
 <p>图示两个链表在节点 <code>c1</code> 开始相交<strong>：</strong></p>
 
-<p><a href="https://assets.leetcode.com/uploads/2021/03/05/160_statement.png" target="_blank"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_statement.png" style="height:130px; width:400px" /></a></p>
+<p><a href="https://assets.leetcode.com/uploads/2021/03/05/160_statement.png" target="_blank"><img alt="" src="https://assets.leetcode.com/uploads/2021/03/05/160_statement.png" style="height:130px; width:400px" /></a></p>
 
 <p>题目数据 <strong>保证</strong> 整个链式结构中不存在环。</p>
 
@@ -33,7 +33,7 @@
 
 <p><strong>示例 1：</strong></p>
 
-<p><a href="https://assets.leetcode.com/uploads/2021/03/05/160_example_1_1.png" target="_blank"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_1_1.png" style="height:130px; width:400px" /></a></p>
+<p><a href="https://assets.leetcode.com/uploads/2021/03/05/160_example_1_1.png" target="_blank"><img alt="" src="https://assets.leetcode.com/uploads/2021/03/05/160_example_1_1.png" style="height:130px; width:400px" /></a></p>
 
 <pre>
 <strong>输入：</strong>intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3
@@ -48,7 +48,7 @@
 
 <p><strong>示例&nbsp;2：</strong></p>
 
-<p><a href="https://assets.leetcode.com/uploads/2021/03/05/160_example_2.png" target="_blank"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_2.png" style="height:136px; width:350px" /></a></p>
+<p><a href="https://assets.leetcode.com/uploads/2021/03/05/160_example_2.png" target="_blank"><img alt="" src="https://assets.leetcode.com/uploads/2021/03/05/160_example_2.png" style="height:136px; width:350px" /></a></p>
 
 <pre>
 <strong>输入：</strong>intersectVal&nbsp;= 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
@@ -60,7 +60,7 @@
 
 <p><strong>示例&nbsp;3：</strong></p>
 
-<p><a href="https://assets.leetcode.com/uploads/2021/03/05/160_example_3.png" target="_blank"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_3.png" style="height:126px; width:200px" /></a></p>
+<p><a href="https://assets.leetcode.com/uploads/2021/03/05/160_example_3.png" target="_blank"><img alt="" src="https://assets.leetcode.com/uploads/2021/03/05/160_example_3.png" style="height:126px; width:200px" /></a></p>
 
 <pre>
 <strong>输入：</strong>intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
@@ -101,5 +101,10 @@
 
 若两指针相遇，所指向的结点就是第一个公共节点。若没相遇，说明两链表无公共节点，此时两个指针都指向 $null$。
 
+威慑么不存在相交也不会死循环？因为当 $A$、$B$ 都指向最后一个节点时， $A$、$B$ 不为空，所以会执行 $A.next$，$B.next$，最终变为 $null$ 跳出循环。
+
 时间复杂度 $O(m+n)$，其中 $m$ 和 $n$ 分别是链表 $headA$ 和 $headB$ 的长度。
+
+
+参考题解：https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/12624/intersection-of-two-linked-lists-shuang-zhi-zhen-l/
 
