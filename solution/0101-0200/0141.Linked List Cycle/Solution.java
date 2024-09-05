@@ -11,20 +11,16 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        if(head == null || head.next == null) {
-            return false;
-        }
-
-        // 避免初始条件就不满足while循环条件
-        ListNode slow = head, fast = head.next;
-        while (slow != fast) {
-            if(fast == null || fast.next == null) {
-                return false;
-            }
-            slow = slow.next;
+        // 快慢双指针
+        ListNode fast = head, slow = head;
+        while (fast != null && fast.next != null) {
             fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow) {
+                return true;
+            }
         }
 
-        return true;
+        return false;
     }
 }
