@@ -1,6 +1,6 @@
 class Solution {
     public int numSquares(int n) {
-        // 状态定义：dp(i, j) 表示从前 i 个完全评价数中选择个数正好表示整数 j
+        // 状态定义：dp(i, j) 表示从前 i 个完全平方数中选择个数正好表示整数 j
         // 转移方程：
         // 1、j < i * i：dp(i, j) = dp(i - 1, j)
         // 2、j >= i * i：dp(i, j) = min(dp(i - 1, j), dp(i, j - i * i) + 1)
