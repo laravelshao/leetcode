@@ -10,6 +10,8 @@ class Solution {
         int ans = 0, preSum = 0;
         for (int num : nums) {
             preSum += num;
+            // preSum - (preSum - k) = k
+            // 计数加上 preSum - k 的个数
             ans += preSumCountMap.getOrDefault(preSum - k, 0);
             preSumCountMap.put(preSum, preSumCountMap.getOrDefault(preSum, 0) + 1);
         }
