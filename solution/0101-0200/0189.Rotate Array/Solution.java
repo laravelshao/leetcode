@@ -8,7 +8,7 @@ class Solution {
 
         // k 是 n 的倍数，则无需轮转
         k %= n;
-        if(n == 0) {
+        if(k == 0) {
             return;
         }
 
