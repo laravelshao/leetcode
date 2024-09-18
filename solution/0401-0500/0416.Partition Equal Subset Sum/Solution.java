@@ -23,6 +23,7 @@ class Solution {
         boolean[] dp = new boolean[target + 1];
         dp[0] = true;
         for (int x : nums) {
+            // 需要从大到小遍历计算 dp 值，因为计算 dp[j] 时，dp[j - nums[i]] 已经是被更新过的状态，而不是上一行的 dp 值
             for (int j = target; j >= x; j--) {
                 dp[j] = dp[j] || dp[j - x];
             }
