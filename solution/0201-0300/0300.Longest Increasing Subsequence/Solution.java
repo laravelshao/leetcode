@@ -2,7 +2,7 @@ class Solution {
     public int lengthOfLIS(int[] nums) {
         // 状态定义：dp(i) 代表前 i 个元素组成的最长递增子序列长度
         // 转移方程：dp(i) = max(dp(i), dp(j) + 1) j ∈ [0, i)
-        // 当 j ∈ [0, i]：
+        // 当 j ∈ [0, i)：
         // 1、nums[j] < nums[i]，说明 nums[i] 可以接在 nums[j] 后面，dp(i) = dp(j) + 1
         // 2、nums[j] >= nums[i]，说明 nums[i] 不能接在 nums[j] 后面，dp(i) = dp(i)
         // 初始状态：dp(i)每个元素都为1，代表每个字符都可以成为子序列
