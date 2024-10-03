@@ -15,7 +15,7 @@ class Solution {
 
         // 统计当前窗口内字符数量
         int[] windowCharCnt = new int[26];
-        // 双指针指向滑动窗口左右下标，i：结束下标，j：开始下标
+        // 双指针指向滑动窗口左右下标，left：开始下标 right：结束下标
         for (int right = 0, left = 0; right < m; right++) {
             int k = s.charAt(right) - 'a';
             windowCharCnt[k]++;
