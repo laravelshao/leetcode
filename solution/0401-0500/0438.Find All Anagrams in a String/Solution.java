@@ -25,6 +25,7 @@ class Solution {
             // 2、出现了s中这个字符大于p中这个字符数量
             // 所以需要移动左下标缩小窗口，因为我们窗口只匹配完全对应p的
             while (windowCharCnt[k] > pCharCnt[k]) {
+                // 减少 p 中不存在字符字数 或 减少窗口内该字符次数
                 windowCharCnt[s.charAt(left++) - 'a']--;
             }
 
