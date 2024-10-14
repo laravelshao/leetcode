@@ -3,9 +3,9 @@ class Solution {
         StringBuilder res = new StringBuilder();
         int multi = 0;
         // 承载左括号前的数字的栈
-        LinkedList<Integer> stack_multi = new LinkedList<>();
+        Deque<Integer> stack_multi = new LinkedList<>();
         // 承载结果的栈
-        LinkedList<String> stack_res = new LinkedList<>();
+        Deque<String> stack_res = new LinkedList<>();
 
         for(char c : s.toCharArray()) {
             if(c == '[') {
