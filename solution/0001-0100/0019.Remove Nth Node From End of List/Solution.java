@@ -11,6 +11,7 @@
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
+        // 前置添加哑节点是为了防止链表只有一个元素时无法处理，slow.next.next 会抛出异常，添加哑节点可以直接返回 dummy.next
         ListNode dummy = new ListNode(0, head);
         // 双指针法，需要找到倒数第 n 个元素
         ListNode slow = dummy, fast = dummy;
