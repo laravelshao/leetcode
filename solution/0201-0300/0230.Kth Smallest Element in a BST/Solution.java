@@ -15,12 +15,12 @@
  */
 class Solution {
 
-    int res, k;
+    int ans, k;
 
     public int kthSmallest(TreeNode root, int k) {
         this.k = k;
         dfs(root);
-        return res;
+        return ans;
     }
 
     private void dfs(TreeNode root) {
@@ -31,12 +31,9 @@ class Solution {
         }
 
         dfs(root.left);
-        if (k == 0) {
-            return;
-        }
-
         if (--k == 0) {
-            res = root.val;
+            ans = root.val;
+            return;
         }
 
         dfs(root.right);
