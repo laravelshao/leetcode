@@ -45,6 +45,9 @@
 参考题解：https://leetcode.cn/problems/trapping-rain-water/solutions/692342/jie-yu-shui-by-leetcode-solution-tuvc/?envType=study-plan-v2&envId=top-interview-150
 
 
+时间复杂度 $O(n)$，其中 $n$ 是数组 $height$ 的长度。空间复杂度：$O(1)$，只需要使用常数的额外空间。
+
+
 ### 方法二：动态规划
 
 我们定义 $left[i]$ 表示下标 $i$ 位置及其左边的最高柱子的高度，定义 $right[i]$ 表示下标 $i$ 位置及其右边的最高柱子的高度。那么下标 $i$ 位置能接的雨水量为 $\min(left[i], right[i]) - height[i]$。我们遍历数组，计算出 $left[i]$ 和 $right[i]$，最后答案为 $\sum_{i=0}^{n-1} min(left[i], right[i]) - height[i]$。
