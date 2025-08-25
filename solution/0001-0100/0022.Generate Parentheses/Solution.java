@@ -8,7 +8,7 @@ class Solution {
     }
 
     /**
-     * left：剩余可用左括号数 right：left：剩余可用右括号数
+     * left：剩余可用左括号数 right：剩余可用右括号数
      */
     private void dfs(String s, int left, int right) {
         if(left == 0 && right == 0) {
